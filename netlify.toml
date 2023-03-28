@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[template]
+  incoming-hooks = ["WixData"]
+
+[template.environment]
+  NEXT_PUBLIC_WIX_CLIENT_ID = "Wix headless client id"
+  REFRESH_TOKEN = "A refresh token for admin access"

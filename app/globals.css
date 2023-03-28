@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: block;
+  font-family: Avenir-LT-W01_35-Light1475496;
+  src: url(//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix);
+  src: url(//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix) format("eot"),url(//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2) format("woff2"),url(//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff) format("woff"),url(//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf) format("truetype"),url(//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c) format("svg")
+}
+
+@font-face {font-family: "Helvetica-W01-Light"; src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format("woff");}
+
+@font-face {
+  font-display: block;
+  font-family: "Oswald-Medium";
+  font-weight: 700;
+  src: url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/dI-qzxlKVQA6TUC5RKSb31tXRa8TVwTICgirnJhmVJw.woff2") format("woff2"),
+  url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff/s/oswald/v16/dI-qzxlKVQA6TUC5RKSb3z8E0i7KZn-EPnyo3HZu7kw.woff") format("woff")
+}
+@font-face {
+  font-display: block;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@layer components {
+  .btn-main {
+    @apply text-white;
+    @apply text-sm;
+    @apply font-medium;
+    @apply bg-blue-site;
+    @apply font-site;
+    @apply hover:bg-purple-800;
+    @apply focus:outline-none;
+    @apply focus:ring-4;
+    @apply focus:ring-gray-300;
+    @apply rounded-none;
+    @apply px-6;
+    @apply py-3;
+  }
+
+  .btn-main[disabled] {
+    @apply hover:text-white;
+    @apply bg-gray-400;
+    @apply border-gray-400;
+    @apply hover:bg-gray-400;
+  }
+
+  .font-site {
+    font-family: Oswald-Medium,Oswald, sans-serif;
+  }
+
+  .font-helvetica {
+    font-family: Helvetica-W01-Light, sans-serif;
+  }
+
+  .input {
+    @apply block;
+    @apply w-full;
+    @apply border-0;
+    @apply border-b;
+    @apply border-blue-site;
+    @apply focus:outline-none;
+    @apply mb-4;
+  }
+
+  h1, .title {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply text-base;
+    @apply sm:text-xl;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
+  @apply text-black;
+  @apply font-helvetica;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
