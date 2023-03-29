@@ -7,6 +7,7 @@ async function main() {
   ) {
     return;
   }
+  const provider = process.env.VERCEL ? 'vercel' : 'netlify';
   const ourProjects = 'Our-Projects';
   const descriptions = {
     short_description:
@@ -15,7 +16,7 @@ async function main() {
       'This item is connected to a text field in your content collection. Double click what you want to edit and then select "Change Content" to open the collection. Want to view and manage all your collections? Click the Content Manager icon on the add panel to your left. In the Content Manager, you can update items, add new fields, create dynamic pages and more. Your content collection is already set up with fields and content. Add your own by editing each field, or import CSV files to your content collection. You can create fields for rich content, images, videos and more. ',
   };
   await fetch(
-    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"vercel"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
+    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
       headers: {
@@ -183,7 +184,7 @@ async function main() {
   );
   const ourTeam = 'Our-Team';
   await fetch(
-    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"vercel"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
+    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
       headers: {
@@ -274,7 +275,7 @@ async function main() {
 
   const volunteers = 'Volunteers';
   await fetch(
-    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"vercel"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
+    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
       headers: {
@@ -371,7 +372,7 @@ async function main() {
 
   const news = 'News';
   await fetch(
-    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"vercel"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
+    `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
       headers: {
