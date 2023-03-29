@@ -5,7 +5,6 @@ async function main() {
     !process.env.NETLIFY &&
     !process.env.NEXT_PUBLIC_WIX_CLIENT_ID
   ) {
-    console.log('This script should only be run on Vercel or Netlify');
     return;
   }
   const ourProjects = 'Our-Projects';
