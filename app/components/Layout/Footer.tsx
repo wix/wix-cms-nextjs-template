@@ -9,7 +9,8 @@ const Footer = () => (
         <div className="flex flex-col sm:flex-row text-sm font-helvetica">
           <div className="basis-1/3 border-b border-white pb-4">
             <p className="mt-10">
-              I am a paragraph. Click here to add your own text and edit me.
+              Please reach out to us with any questions or concerns. We’re happy
+              to hear from you.
             </p>
             <p className="mt-10">Registered Charity: 12345-67</p>
           </div>

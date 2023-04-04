@@ -21,11 +21,10 @@ export default async function Team() {
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
         <h1 className="text-center py-8 text-site font-site">Our Team</h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          I am a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. Feel free to drag and drop me
-          anywhere you like on your page. I’m a great place for you to tell a
-          story and let your users know a little more about you.
+          ChoosEquality is more than an organization. It is a family of
+          passionate and dedicated people who share a common vision and mission
+          of improving education for everyone. Meet some of our amazing team
+          members below and learn more about their roles and stories.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 grid-flow-row mt-10">
           {team!.map((item) => (
@@ -49,11 +48,10 @@ export default async function Team() {
           Our Volunteers
         </h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          I am a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. Feel free to drag and drop me
-          anywhere you like on your page. I’m a great place for you to tell a
-          story and let your users know a little more about you.
+          ChoosEquality is powered by the passion and dedication of our
+          volunteers, who are the heart and soul of our organization. Our
+          volunteers are people from all walks of life, who share our vision and
+          mission of improving education for everyone.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 grid-flow-row mt-10">
           {volunteers!.map((item) => (

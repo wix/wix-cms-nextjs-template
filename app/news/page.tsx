@@ -22,9 +22,8 @@ export default async function News() {
           News & Updates
         </h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          I am a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font.
+          Read the latest news and stay up to date about our organization, our
+          projects, our events, and the impact we’re making.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-7 grid-flow-row mt-10">
           {items!.map((item) => (

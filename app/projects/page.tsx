@@ -19,11 +19,9 @@ export default async function Projects() {
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
         <h1 className="text-center py-8 font-site">Our Projects</h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          I am a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. Feel free to drag and drop me
-          anywhere you like on your page. I’m a great place for you to tell a
-          story and let your users know a little more about you.
+          At ChoosEquality, we are always working on projects to improve the
+          quality and accessibility of education for everyone. Take a look at
+          some of our current and past projects.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 grid-flow-row mt-10">
           {items!.map((item) => (

@@ -43,9 +43,9 @@ export default function Home() {
           <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:mt-[-300px]">
             <h3 className="text-2xl font-site">Our Initiatives</h3>
             <p className="my-6 text-sm">
-              I am a paragraph. Click here to add your own text and edit me.
-              It’s easy. Just click “Edit Text” or double click me to add your
-              own content and make changes to the font.
+              Our initiatives bring people together to help solve real problems
+              and evoke a positive change. Explore our initiatives and see what
+              you can do to help.
             </p>
             <a href="/projects" className="text-purple-site py-6 font-site">
               Read More
@@ -63,9 +63,11 @@ export default function Home() {
           <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-32 sm:mt-[-430px]">
             <h3 className="text-2xl font-site">Our Mission</h3>
             <p className="my-6 text-sm">
-              I am a paragraph. Click here to add your own text and edit me.
-              It’s easy. Just click “Edit Text” or double click me to add your
-              own content and make changes to the font.
+              We believe that education is a human right and a powerful tool for
+              social change. We provide educational projects, learning resources
+              and mentoring programs for kids of all ages and backgrounds. We
+              aim to create a world where everyone has the opportunity to learn
+              and grow.
             </p>
             <a href="/about" className="text-purple-site py-6 font-site">
               Read More
@@ -85,9 +87,8 @@ export default function Home() {
           <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-44 sm:mt-[-230px]">
             <h3 className="text-2xl font-site">Recent News</h3>
             <p className="my-6 text-sm">
-              I am a paragraph. Click here to add your own text and edit me.
-              It’s easy. Just click “Edit Text” or double click me to add your
-              own content and make changes to the font.
+              Get caught up on recent news and our latest achievements in the
+              world of education.
             </p>
             <a href="/news" className="text-purple-site py-6 font-site">
               Read More
@@ -105,9 +106,10 @@ export default function Home() {
           <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-32 sm:mt-[-530px]">
             <h3 className="text-2xl font-site">Take Part</h3>
             <p className="my-6 text-sm">
-              I am a paragraph. Click here to add your own text and edit me.
-              It’s easy. Just click “Edit Text” or double click me to add your
-              own content and make changes to the font.
+              We welcome contributions in whatever form they come. Whether you
+              want to contribute your time as a volunteer, join us as a partner
+              or donate resources towards helping us achieve our goals, there is
+              always an opportunity to make a difference.
             </p>
             <a href="/contact" className="text-purple-site py-6 font-site">
               Read More

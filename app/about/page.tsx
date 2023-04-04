@@ -13,19 +13,23 @@ export default async function About() {
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
         <h1 className="text-center py-8 font-site">About ChoosEquality</h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          I am a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. Feel free to drag and drop me
-          anywhere you like on your page. I’m a great place for you to tell a
-          story and let your users know a little more about you.
+          ChoosEquality is a non-profit organization that aims to bring
+          education to everyone, regardless of age, background, or location. We
+          believe that education is a human right and a powerful force for
+          positive change in the world. We provide training, tools, resources,
+          and support to help schools achieve their educational goals and
+          aspirations. We also advocate for policies and reforms that promote
+          quality education for all.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          This is a great space to write a long text about your company and your
-          services. You can use this space to go into a little more detail about
-          your company. Talk about your team and what services you provide. Tell
-          your visitors the story of how you came up with the idea for your
-          business and what makes you different from your competitors. Make your
-          company stand out and show your visitors who you are.
+          We envision a world where everyone has the opportunity to learn, grow,
+          and thrive. Our mission is to empower people and communities with the
+          knowledge and skills they need to create a better future for
+          themselves and others.
+        </p>
+        <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
+          We are ChoosEquality and we invite you to join us in making a
+          difference.
         </p>
         <div className="justify-center flex flex-col sm:flex-row gap-6 mt-10 text-center">
           <a href="" className="btn-main text-lg">
