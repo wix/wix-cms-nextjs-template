@@ -30,6 +30,7 @@ Click the quick start deployment link below to automatically authorize your temp
 Authentication credentials are automatically incorporated into the template, making it easy to get started coding and customizing.
 
 ##### Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3dc4d147-be85-4063-bf14-01cc80da8125/deploy-status)](https://app.netlify.com/sites/wix-cms-nextjs-template/deploys)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://manage.wix.com/headless-funnel-nextjs/netlify?repository=https://github.com/wix/wix-cms-nextjs-template)
 
