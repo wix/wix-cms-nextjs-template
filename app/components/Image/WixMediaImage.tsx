@@ -41,7 +41,7 @@ export function WixMediaImage({
 
   return (
     <div className={`flex items-center justify-center h-full`}>
-      <div className="overflow-hidden cursor-pointer relative group w-full h-full">
+      <div className="overflow-hidden relative group w-full h-full">
         <Image
           {...styleProps}
           src={imageUrl}
