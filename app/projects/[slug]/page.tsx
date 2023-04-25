@@ -18,6 +18,7 @@ export default async function Project({ params }: any) {
           media={project.data!.cover}
           alt={project.data!.title}
           objectFit="cover"
+          sizes="100vw"
           disableZoom={true}
         />
       </div>

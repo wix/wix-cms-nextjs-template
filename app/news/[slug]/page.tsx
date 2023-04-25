@@ -18,6 +18,7 @@ export default async function New({ params }: any) {
           media="https://static.wixstatic.com/media/0b340f_0b4d1813105145bfa782ce1d7a379151~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_1920,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_0b4d1813105145bfa782ce1d7a379151~mv2_d_5760_3840_s_4_2.jpg"
           alt={item.data!.title}
           objectFit="cover"
+          sizes="100vw"
           disableZoom={true}
         />
       </div>
