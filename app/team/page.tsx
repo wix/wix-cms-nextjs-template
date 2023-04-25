@@ -41,7 +41,7 @@ export default async function Team() {
                   objectFit="cover"
                 />
               </div>
-              <div className="bg-white sm:mt-[-50px] border-t-4 relative mx-6 px-2 pt-3 border-blue-site text-center">
+              <div className="bg-white sm:mt-[-48px] border-t-4 relative mx-6 px-2 pt-3 border-blue-site text-center">
                 <h2 className="mb-10 font-site">{item.data!.name}</h2>
                 <p className="text-sm mb-6">{item.data!.about}</p>
                 <span>{item.data!.email}</span>
