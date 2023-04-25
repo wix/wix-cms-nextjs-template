@@ -31,12 +31,14 @@ export default async function New({ params }: any) {
           <WixMediaImage
             media={item.data!.image}
             alt={item.data!.title}
+            sizes="100vw"
             objectFit="contain"
           />
         </div>
-        <p className="py-6 max-w-3xl text-sm mx-auto">
-          {item.data!.long_description}
-        </p>
+        <p
+          className="py-6 max-w-3xl text-sm mx-auto"
+          dangerouslySetInnerHTML={{ __html: item.data!.long_description }}
+        />
       </div>
     </div>
   );
