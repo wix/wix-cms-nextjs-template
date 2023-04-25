@@ -37,6 +37,7 @@ export default function Home() {
             <WixMediaImage
               media="https://static.wixstatic.com/media/0b340f_d146a1cff38b4503ae5e6ccc9aa86368~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_434,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0b340f_d146a1cff38b4503ae5e6ccc9aa86368~mv2_d_5184_3456_s_4_2.jpg"
               objectFit="cover"
+              sizes="50vw"
               disableZoom={true}
             />
           </div>
@@ -57,6 +58,7 @@ export default function Home() {
             <WixMediaImage
               media="https://static.wixstatic.com/media/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg/v1/fill/w_615,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg"
               objectFit="cover"
+              sizes="100vw"
               disableZoom={true}
             />
           </div>
@@ -81,6 +83,7 @@ export default function Home() {
             <WixMediaImage
               media="https://static.wixstatic.com/media/0b340f_0b4d1813105145bfa782ce1d7a379151~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_682,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_0b4d1813105145bfa782ce1d7a379151~mv2_d_5760_3840_s_4_2.jpg"
               objectFit="cover"
+              sizes="100vw"
               disableZoom={true}
             />
           </div>
@@ -100,6 +103,7 @@ export default function Home() {
             <WixMediaImage
               media="https://static.wixstatic.com/media/0b340f_a075ec7cf76b4b479b4b482e44a88c43~mv2_d_3840_5760_s_4_2.jpg/v1/fill/w_486,h_568,al_tr,q_80,usm_0.66_1.00_0.01,enc_auto/0b340f_a075ec7cf76b4b479b4b482e44a88c43~mv2_d_3840_5760_s_4_2.jpg"
               objectFit="cover"
+              sizes="50vw"
               disableZoom={true}
             />
           </div>

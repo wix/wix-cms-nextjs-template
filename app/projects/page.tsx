@@ -2,9 +2,11 @@ import { getWixClient } from '@app/hooks/useWixClientServer';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 export default async function Projects() {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.data.query({
-    dataCollectionId: 'Our-Projects',
-  });
+  const { items } = await wixClient.dataItems
+    .queryDataItems({
+      dataCollectionId: 'Our-Projects',
+    })
+    .find();
 
   return (
     <div className="relative">
@@ -12,6 +14,7 @@ export default async function Projects() {
         <WixMediaImage
           media="https://static.wixstatic.com/media/0b340f_d146a1cff38b4503ae5e6ccc9aa86368~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1920,h_492,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_d146a1cff38b4503ae5e6ccc9aa86368~mv2_d_5184_3456_s_4_2.jpg"
           alt="projects"
+          sizes="100vw"
           objectFit="cover"
           disableZoom={true}
         />
@@ -28,16 +31,16 @@ export default async function Projects() {
             <div key={item._id} className="p-4 relative">
               <div className="sm:w-[370px] h-[320px] relative">
                 <WixMediaImage
-                  media={item.cover}
-                  alt={item.title}
+                  media={item.data!.cover}
+                  alt={item.data!.title}
                   objectFit="cover"
                 />
               </div>
               <div className="bg-white sm:mt-[-50px] border-t-4 relative mx-6 px-2 pt-3 border-blue-site text-center">
-                <h2 className="mb-10 font-site">{item.title}</h2>
-                <p className="text-sm mb-6">{item.short_description}</p>
+                <h2 className="mb-10 font-site">{item.data!.title}</h2>
+                <p className="text-sm mb-6">{item.data!.short_description}</p>
                 <a
-                  href={`/projects/${item.slug}`}
+                  href={`/projects/${item.data!.slug}`}
                   className="text-purple-site py-6 font-site"
                 >
                   Read More

@@ -3,9 +3,11 @@ import { formatDate } from '@app/utils/date-formatter';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 export default async function News() {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.data.query({
-    dataCollectionId: 'News',
-  });
+  const { items } = await wixClient.dataItems
+    .queryDataItems({
+      dataCollectionId: 'News',
+    })
+    .find();
 
   return (
     <div className="relative">
@@ -13,6 +15,7 @@ export default async function News() {
         <WixMediaImage
           media="https://static.wixstatic.com/media/0b340f_0b4d1813105145bfa782ce1d7a379151~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_1920,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_0b4d1813105145bfa782ce1d7a379151~mv2_d_5760_3840_s_4_2.jpg"
           alt="news"
+          sizes="100vw"
           objectFit="cover"
           disableZoom={true}
         />
@@ -30,20 +33,20 @@ export default async function News() {
             <div key={item._id} className="relative border">
               <div className="h-[320px] relative">
                 <WixMediaImage
-                  media={item.image}
-                  alt={item.title}
+                  media={item.data!.image}
+                  alt={item.data!.title}
                   objectFit="cover"
                   disableZoom={true}
                 />
                 <span className="bg-blue-site text-white px-6 py-2 absolute bottom-[-20px]">
-                  {formatDate(new Date(item.date))}
+                  {formatDate(new Date(item.data!.date))}
                 </span>
               </div>
               <div className="bg-white relative mt-10 px-8 pb-10">
-                <h2 className="mb-10 font-site">{item.title}</h2>
-                <p className="text-sm mb-6">{item.short_description}</p>
+                <h2 className="mb-10 font-site">{item.data!.title}</h2>
+                <p className="text-sm mb-6">{item.data!.short_description}</p>
                 <a
-                  href={`/news/${item.slug}`}
+                  href={`/news/${item.data!.slug}`}
                   className="text-purple-site py-6 font-site"
                 >
                   Read More

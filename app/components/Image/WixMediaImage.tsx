@@ -16,6 +16,7 @@ export function WixMediaImage({
   width = 640,
   alt = 'no info available for image',
   className,
+  sizes = '10vw',
   objectFit,
   disableZoom = false,
 }: {
@@ -23,6 +24,7 @@ export function WixMediaImage({
   alt?: string;
   width?: number;
   height?: number;
+  sizes?: string;
   className?: string;
   disableZoom?: boolean;
   objectFit?: 'cover' | 'contain';
@@ -32,7 +34,9 @@ export function WixMediaImage({
     : PLACEHOLDER_IMAGE;
 
   const styleProps: Partial<ImageProps> = {
-    ...(objectFit ? { style: { objectFit }, fill: true } : { width, height }),
+    ...(objectFit
+      ? { style: { objectFit }, fill: true, sizes }
+      : { width, height }),
   };
 
   return (

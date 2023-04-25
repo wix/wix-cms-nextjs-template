@@ -6,6 +6,7 @@ export default async function Page() {
         <WixMediaImage
           media="https://static.wixstatic.com/media/0b340f_a5c250a81aed4d7fa68e005cff2132c8~mv2_d_3840_1960_s_2.jpg/v1/fill/w_3456,h_984,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/0b340f_a5c250a81aed4d7fa68e005cff2132c8~mv2_d_3840_1960_s_2.jpg"
           alt="projects"
+          sizes="100vw"
           objectFit="cover"
           disableZoom={true}
         />

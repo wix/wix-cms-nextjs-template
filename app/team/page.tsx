@@ -2,18 +2,23 @@ import { getWixClient } from '@app/hooks/useWixClientServer';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 export default async function Team() {
   const wixClient = await getWixClient();
-  const { items: team } = await wixClient.data.query({
-    dataCollectionId: 'Our-Team',
-  });
-  const { items: volunteers } = await wixClient.data.query({
-    dataCollectionId: 'Volunteers',
-  });
+  const { items: team } = await wixClient.dataItems
+    .queryDataItems({
+      dataCollectionId: 'Our-Team',
+    })
+    .find();
+  const { items: volunteers } = await wixClient.dataItems
+    .queryDataItems({
+      dataCollectionId: 'Volunteers',
+    })
+    .find();
   return (
     <div className="relative">
       <div className="w-full h-[400px] relative">
         <WixMediaImage
           media="https://static.wixstatic.com/media/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg/v1/fill/w_1920,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg"
           alt="projects"
+          sizes="100vw"
           objectFit="cover"
           disableZoom={true}
         />
@@ -31,15 +36,15 @@ export default async function Team() {
             <div key={item._id} className="p-4 relative">
               <div className="w-[300px] h-[220px] relative">
                 <WixMediaImage
-                  media={item.image}
-                  alt={item.name}
+                  media={item.data!.image}
+                  alt={item.data!.name}
                   objectFit="cover"
                 />
               </div>
               <div className="bg-white sm:mt-[-50px] border-t-4 relative mx-6 px-2 pt-3 border-blue-site text-center">
-                <h2 className="mb-10 font-site">{item.name}</h2>
-                <p className="text-sm mb-6">{item.about}</p>
-                <span>{item.email}</span>
+                <h2 className="mb-10 font-site">{item.data!.name}</h2>
+                <p className="text-sm mb-6">{item.data!.about}</p>
+                <span>{item.data!.email}</span>
               </div>
             </div>
           ))}
@@ -58,10 +63,10 @@ export default async function Team() {
             <div key={item._id} className="p-4 relative">
               <div className="bg-white sm:mt-[-50px] relative mx-6 px-2 py-5 text-center">
                 <h2 className="mb-10 font-extrabold text-blue-site font-site">
-                  {item.name}
+                  {item.data!.name}
                 </h2>
-                <p className="text-sm mb-6">{item.about}</p>
-                <span>{item.email}</span>
+                <p className="text-sm mb-6">{item.data!.about}</p>
+                <span>{item.data!.email}</span>
               </div>
             </div>
           ))}

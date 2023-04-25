@@ -1,8 +1,8 @@
 import { createClient, OAuthStrategy } from '@wix/api-client';
-import { data } from '@wix/data-backend-public-sdk-poc';
+import { dataItems } from '@wix/data-items';
 export const getWixClient = async () => {
   const wixClient = createClient({
-    modules: { data },
+    modules: { dataItems },
     auth: OAuthStrategy({ clientId: process.env.NEXT_PUBLIC_WIX_CLIENT_ID! }),
   });
   const tokens = await wixClient.auth.generateVisitorTokens();
