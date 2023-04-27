@@ -12,6 +12,7 @@
     "lint": "next lint --fix"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.36.0",
     "@tanstack/react-query": "^4.18.0",
     "@wix/api-client": "^1.1.55",
     "@wix/data-items": "^1.0.3",
