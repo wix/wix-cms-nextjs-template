@@ -6,13 +6,13 @@ This template is a [Next.js](https://nextjs.org/) project bootstrapped with [`cr
 
 ## Part I: Get started
 
-To integrate the Wix Content Manager business solution with the template, first create a project on Wix:
+To integrate the Wix Content Manager business solution with the template, first create and set up a project on Wix:
 
 ### Step 1: Create a project on Wix
 
-Create a [new Wix Headless project](https://www.wix.com/intro/headless). For instructions on creating a Wix project, see [Create a Wix Headless Project](https://dev.wix.com/api/sdk/sdk-setup:-wix-headless/create-a-project) in the documentation.
+Create a [new Wix Headless project](https://www.wix.com/intro/headless). For instructions on creating a Wix project, see [Create a Wix Headless Project](https://dev.wix.com/api/sdk/sdk-setup:-wix-headless/create-a-project).
 
-When prompted to add functionalities to your new project, you don't need to select any business solutions, since every Wix Headless project includes CMS:
+When prompted to add functionalities to your new project, you don't need to select any business solutions, since every Wix Headless project includes CMS support:
 
 ![Apps Menu - select Bookings and Pricing Plans](docs/media/project-business-solutions.png)
 
