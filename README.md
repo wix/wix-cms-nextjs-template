@@ -2,19 +2,27 @@
 
 ![](docs/media/template-showcase.gif)
 
-This template is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses [Wix Headless](https://dev.wix.com/api/sdk/about-wix-headless/overview) to leverage the Wix CMS business solution for managing an education site.
+This template is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses [Wix Headless](https://dev.wix.com/api/sdk/about-wix-headless/overview) to leverage the Wix CMS business solution for managing the content on an education site.
 
 ## Part I: Get started
 
-To integrate the Wix Content Manager business solution with the template, first create a project or site on Wix:
+To integrate the Wix Content Manager business solution with the template, first create a project on Wix:
 
 ### Step 1: Create a project on Wix
 
-> ***Note:*** Currently, to create a new project on Wix, it's necessary to [create a new site](http://wix.com/intro/main). It will soon be possible to create a project without creating a site.
+Create a [new Wix Headless project](https://www.wix.com/intro/headless). For instructions on creating a Wix project, see [Create a Wix Headless Project](https://dev.wix.com/api/sdk/sdk-setup:-wix-headless/create-a-project) in the documentation.
+
+When prompted to add functionalities to your new project, you don't need to select any business solutions, since every Wix Headless project includes CMS:
+
+![Apps Menu - select Bookings and Pricing Plans](docs/media/project-business-solutions.png)
+
+If needed, you can add business solutions to your project later. See [Add Apps to a Project](https://dev.wix.com/api/sdk/guides/add-apps-to-a-project).
 
 ### Step 2: Set up the Wix business solutions you need
 
-See the [Getting Started with the Content Manager](https://support.wix.com/en/article/getting-started-with-the-content-manager) article for information on the collections and data you need.
+In the project [dashboard](https://www.wix.com/my-account/site-selector/?buttonText=Select%20Site&title=Select%20a%20Site&autoSelectOnSingleSite=true&actionUrl=https:%2F%2Fwww.wix.com%2Fdashboard%2F%7B%7BmetaSiteId%7D%7D%2Fhome), click **Content Manager** in the sidebar menu to access the Content Manager.
+
+For information on creating and managing collections, see [Getting Started with the Content Manager](https://support.wix.com/en/article/about-the-content-manager-7160473).
 
 ### Step 3: Authorize the template
 
@@ -34,9 +42,14 @@ Authentication credentials are automatically incorporated into the template, mak
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://manage.wix.com/headless-funnel-nextjs/netlify?repository=https://github.com/wix/wix-cms-nextjs-template)
 
-For more information, see [How to Deploy Next.js Sites to Netlify](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/) or view the demo [here](https://netlify.cms-demo.wix.dev/).
+
+For more information, see [How to Deploy Next.js Sites to Netlify](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/).
+
+You can also view our [live demo site](https://netlify.cms-demo.wix.dev/). 
 
 #### Option B: Create an OAuth client ID in the Wix dashboard
+
+If you don't want to use quick-start deployment, begin by forking this repo to your git account.
 
 Read [Set Up Authorization](https://dev.wix.com/api/sdk/sdk-setup:-wix-headless/authorization) in the Wix SDK documentation for instructions on how to manually create an OAuth app and generate a client ID in the [Headless Settings](https://www.wix.com/my-account/site-selector/?buttonText=Select%20Site&title=Select%20a%20Site&autoSelectOnSingleSite=true&actionUrl=https:%2F%2Fwww.wix.com%2Fdashboard%2F%7B%7BmetaSiteId%7D%7D%2Foauth-apps-settings) menu of the Wix dashboard.
 
@@ -77,36 +90,7 @@ You can start editing the homepage by modifying `app/page.tsx`. The page auto-up
 
 Similarly, you can edit any other page on the pattern `app/<route>/page.tsx`. For more information, see [Defining Routes](https://beta.nextjs.org/docs/routing/defining-routes) in the Next.js documentation.
 
-## Part III: Checkout and payments
-
-The template implements checkout by redirecting visitors to a Wix-managed page. You can configure your business's checkout in the [eCommerce Settings](https://www.wix.com/my-account/site-selector/?buttonText=Select%20Site&title=Select%20a%20Site&autoSelectOnSingleSite=true&actionUrl=https:%2F%2Fwww.wix.com%2Fdashboard%2F%7B%7BmetaSiteId%7D%7D%2Fstore/settings) menu in the Wix dashboard.
-
-To enable online checkout for the template, follow these steps:
-
-### Step 1: Publish the Wix site
-
-> ***Note:*** Currently, in order to create a new project on Wix, it's necessary to [create a new site](http://wix.com/intro/main) and publish it. You don't need to use this site, but publishing it enables the checkout page to go live on the web. It will soon be possible to create a project without creating a site.
-
-To publish a 'dummy' site, follow these steps:
-
-
-1. In your project [dashboard](https://www.wix.com/my-account/site-selector/?buttonText=Select%20Site&title=Select%20a%20Site&autoSelectOnSingleSite=true&actionUrl=https:%2F%2Fwww.wix.com%2Fdashboard%2F%7B%7BmetaSiteId%7D%7D%2F) click **Design Site**.
-2. Select **Let Wix create a site for you**.
-3. Select any template.
-4. Click **Edit My Site Design**.
-5. Click **Publish**.
-6. In the **Publish** popup you can set the site’s address or connect a domain. This is the URL that appears as your checkout redirect base URL. If you don't change the base URL now, you can change it later.
-
-### Step 2: Change the checkout redirect base URL (optional)
-
-To change the redirect base URL, follow these steps in the project [dashboard](https://www.wix.com/my-account/site-selector/?buttonText=Select%20Site&title=Select%20a%20Site&autoSelectOnSingleSite=true&actionUrl=https:%2F%2Fwww.wix.com%2Fdashboard%2F%7B%7BmetaSiteId%7D%7D%2F):
-1. Click **Site Actions** (the ellipsis next to **Edit Site**).
-2. Click **Rename Site**.
-3. Change the editable part of the URL in **Site Address (URL)** and click **Save**.
-
-Alternatively, you can [connect a custom domain](https://support.wix.com/en/article/about-domains).
-
-## Part IV: Learn more about the tech stack
+## Part III: Learn more about the tech stack
 
 To learn how to customize the template and add more functionality using Wix APIs, see the [Wix JavaScript SDK reference documentation](https://dev.wix.com/api/sdk).
 
@@ -124,7 +108,7 @@ Additionally, this template uses the following libraries and features:
 + [Flowbite](https://flowbite.com/)
 + [Wix client SDK](https://dev.wix.com/api/sdk/introduction)
 
-## Part V: Deployment
+## Part IV: Deployment
 
 You can deploy this repository using any platform which supports Next.js Version 13 and the [App Router Roadmap](https://beta.nextjs.org/docs/app-directory-roadmap).
 
