@@ -9,5 +9,5 @@
   incoming-hooks = ["WixData"]
 
 [template.environment]
-  NEXT_PUBLIC_WIX_CLIENT_ID = "Wix headless client id"
+  NEXT_PUBLIC_WIX_CLIENT_ID = "Wix Headless Client ID"
   WIX_REFRESH_TOKEN = "A refresh token for admin access"
