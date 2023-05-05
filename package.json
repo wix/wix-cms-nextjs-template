@@ -6,21 +6,16 @@
     "dev": "next dev",
     "debug": "NODE_OPTIONS='--inspect' next dev -p 3005",
     "test": "",
-    "prebuild": "node add-collections.js",
-    "build": "next build",
+    "build": "node add-collections.js && next build",
     "start": "next start",
     "lint": "next lint --fix"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.36.0",
-    "@tanstack/react-query": "^4.18.0",
-    "@wix/api-client": "^1.1.55",
+    "@wix/api-client": "^1.1.67",
     "@wix/data-items": "^1.0.3",
-    "cookie": "^0.5.0",
-    "date-fns": "^2.29.3",
     "flowbite": "^1.5.4",
     "flowbite-react": "^0.3.5",
-    "jsurl": "^0.1.5",
     "next": "^13.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
