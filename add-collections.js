@@ -7,7 +7,6 @@ async function main() {
   ) {
     return;
   }
-  console.log('Adding collections - start');
   const provider = process.env.VERCEL ? 'vercel' : 'netlify';
   const descriptions = {
     short_description:
@@ -63,7 +62,7 @@ async function main() {
             ],
             id: ourProjects,
             permissions: {
-              insert: 'ADMIN',
+              insert: 'ANYONE',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -202,7 +201,7 @@ async function main() {
 
   const ourTeam = 'Our-Team';
   console.log('Adding collections - adding team collection');
-  await fetch(
+  const resTeam = await fetch(
     `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
@@ -242,7 +241,7 @@ async function main() {
             ],
             id: ourTeam,
             permissions: {
-              insert: 'ADMIN',
+              insert: 'ANYONE',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -297,10 +296,16 @@ async function main() {
       }),
     }
   );
+  const teamJson = await resTeam.json();
+  console.log(
+    `Adding collections - added team collection success: ${JSON.stringify(
+      teamJson
+    )}`
+  );
 
   const volunteers = 'Volunteers';
   console.log('Adding collections - adding volunteers collection');
-  await fetch(
+  const resVolunteers = await fetch(
     `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
@@ -330,7 +335,7 @@ async function main() {
             ],
             id: volunteers,
             permissions: {
-              insert: 'ADMIN',
+              insert: 'ANYONE',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -409,10 +414,16 @@ async function main() {
       }),
     }
   );
+  const volunteersJson = await resVolunteers.json();
+  console.log(
+    `Adding collections - added volunteers collection success: ${JSON.stringify(
+      volunteersJson
+    )}`
+  );
 
   const news = 'News';
   console.log('Adding collections - adding news collection');
-  await fetch(
+  const resNews = await fetch(
     `https://manage.wix.com/headless-funnel-nextjs/api/collections/add?refreshToken=${process.env.WIX_REFRESH_TOKEN}&state={"provider":"${provider}"}&clientId=${process.env.NEXT_PUBLIC_WIX_CLIENT_ID}`,
     {
       method: 'POST',
@@ -457,7 +468,7 @@ async function main() {
             ],
             id: news,
             permissions: {
-              insert: 'ADMIN',
+              insert: 'ANYONE',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -521,6 +532,12 @@ async function main() {
         },
       }),
     }
+  );
+  const newsJson = await resNews.json();
+  console.log(
+    `Adding collections - added news collection success: ${JSON.stringify(
+      newsJson
+    )}`
   );
 }
 
