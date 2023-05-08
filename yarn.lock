@@ -768,19 +768,19 @@ __metadata:
   linkType: hard
 
 "@wix/api-client@npm:^1.1.67":
-  version: 1.1.68
-  resolution: "@wix/api-client@npm:1.1.68"
+  version: 1.1.69
+  resolution: "@wix/api-client@npm:1.1.69"
   dependencies:
     "@babel/runtime": ^7.21.5
     "@types/grecaptcha": ^3.0.4
     "@wix/identity": ^1.0.34
     "@wix/image-kit": ^1.31.0
     "@wix/redirects": ^1.0.13
-    "@wix/sdk-types": 1.1.68
+    "@wix/sdk-types": 1.1.69
     pkce-challenge: ^3.1.0
     querystring: ^0.2.1
     type-fest: ^2.19.0
-  checksum: 00f3eb03893f5c598d0c97a58119f9e581aa13e3df715e2c63963cb05eebae9df92c3d8cd34a271f044ec2d47776d26b52b36778dbfcc3528de7f9db8b80420d
+  checksum: ffbe7153933bf24329bfdba55861c2c6527ba1f13a05883b1c87b8cd2e55010cee29560f83fd688789bbe205ca35dcb74b72f3444e3738f4877696f7ac2dd2a9
   languageName: node
   linkType: hard
 
@@ -807,13 +807,13 @@ __metadata:
   linkType: hard
 
 "@wix/identity@npm:^1.0.34":
-  version: 1.0.36
-  resolution: "@wix/identity@npm:1.0.36"
+  version: 1.0.37
+  resolution: "@wix/identity@npm:1.0.37"
   dependencies:
     "@wix/metro-runtime": ^1.0.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
     "@wix/sdk-types": ^1.0.0
-  checksum: d37cb10f92713f7e6d1d732bc1bab7a56f75778545ee10ed5e5901396cf132d6bcf26ec59f8bd3e44c92838c796561321b75d762df21049d9adceb4c761efc4b
+  checksum: ffadb7eaeaaf7b750438689e9f449bf145dc4ac83edb27a1f07b253c949c0db83944052191726026987ef8bd9c51bbbe9f9340c138eea43502f83db271036375
   languageName: node
   linkType: hard
 
@@ -940,12 +940,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:1.1.68, @wix/sdk-types@npm:^1.0.0":
-  version: 1.1.68
-  resolution: "@wix/sdk-types@npm:1.1.68"
+"@wix/sdk-types@npm:1.1.69, @wix/sdk-types@npm:^1.0.0":
+  version: 1.1.69
+  resolution: "@wix/sdk-types@npm:1.1.69"
   dependencies:
     "@babel/runtime": ^7.21.5
-  checksum: 2585c8b1ab71827adc5cb2b3e936e1236bb27b82c51e0bfe9adf7ac30aed7cd7a675116c1a5e282ce173e3061a2e9a3c0968ed65f48c98afa41bf9463a673326
+  checksum: b108fd968ac46e07691a79e718b653aee16f16c14a433aacc56db07bffd3c64d863210fa7cac9e42b311f4f09e76eb1cd5f6128b1047812068f375d54a50a4e3
   languageName: node
   linkType: hard
 
@@ -3720,7 +3720,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micro-memoize@npm:^4.0.11":
+"micro-memoize@npm:^4.1.2":
   version: 4.1.2
   resolution: "micro-memoize@npm:4.1.2"
   checksum: 4b02750622d44b5ab31573c629b5d91927dd0c2727743ff75e790c223ab6cd02c48cc3bddea69da0dffb688091a0a71a17944947dd165f8ba9e03728bc30a76d
@@ -3886,12 +3886,12 @@ __metadata:
   linkType: hard
 
 "moize@npm:^6.1.0":
-  version: 6.1.5
-  resolution: "moize@npm:6.1.5"
+  version: 6.1.6
+  resolution: "moize@npm:6.1.6"
   dependencies:
     fast-equals: ^3.0.1
-    micro-memoize: ^4.0.11
-  checksum: 62fa868b2b2b29d01b2831aebd009071afd88f2d682f342915952f5ac88ec9919839fddd79fc4c13b5eb1b2f63b444885358dec1f26ed9d9734a7b4577a4b9a4
+    micro-memoize: ^4.1.2
+  checksum: a81c56e8d3d30ad0c324369ab636e48b9799abb7f5e0955250f99744dbea456848107d293436face8e12acf7bc820e759048118083cc37644a4c95a37c66e566
   languageName: node
   linkType: hard
 
