@@ -62,7 +62,7 @@ async function main() {
             ],
             id: ourProjects,
             permissions: {
-              insert: 'ANYONE',
+              insert: 'ADMIN',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -241,7 +241,7 @@ async function main() {
             ],
             id: ourTeam,
             permissions: {
-              insert: 'ANYONE',
+              insert: 'ADMIN',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -335,7 +335,7 @@ async function main() {
             ],
             id: volunteers,
             permissions: {
-              insert: 'ANYONE',
+              insert: 'ADMIN',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
@@ -468,7 +468,7 @@ async function main() {
             ],
             id: news,
             permissions: {
-              insert: 'ANYONE',
+              insert: 'ADMIN',
               update: 'ADMIN',
               remove: 'ADMIN',
               read: 'ANYONE',
