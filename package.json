@@ -15,7 +15,7 @@
     "@wix/api-client": "^1.1.67",
     "@wix/data-items": "^1.0.3",
     "flowbite": "^1.5.4",
-    "flowbite-react": "^0.3.5",
+    "flowbite-react": "^0.4.4",
     "next": "13.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
