@@ -39,7 +39,9 @@ export default async function News() {
                   disableZoom={true}
                 />
                 <span className="bg-blue-site text-white px-6 py-2 absolute bottom-[-20px]">
-                  {formatDate(new Date(item.data!.date))}
+                  {formatDate(
+                    new Date(item.data!.date?.$date ?? item.data!.date)
+                  )}
                 </span>
               </div>
               <div className="bg-white relative mt-10 px-8 pb-10">
