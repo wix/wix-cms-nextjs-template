@@ -413,6 +413,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@netlify/functions@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "@netlify/functions@npm:1.6.0"
+  dependencies:
+    is-promise: ^4.0.0
+  checksum: ecff9a1161b2df94d139431e7a2b42d9790cf4ec250ad3aec57935cc1b1e78beccfe855c6e5522311baefce84b91ed690904aedf02b2511eaaafdc8f6daab75e
+  languageName: node
+  linkType: hard
+
 "@netlify/ipx@npm:^1.4.0":
   version: 1.4.0
   resolution: "@netlify/ipx@npm:1.4.0"
@@ -432,11 +441,11 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.36.1
-  resolution: "@netlify/plugin-nextjs@npm:4.36.1"
+  version: 4.37.2
+  resolution: "@netlify/plugin-nextjs@npm:4.37.2"
   dependencies:
     "@netlify/esbuild": 0.14.39
-    "@netlify/functions": ^1.4.0
+    "@netlify/functions": ^1.6.0
     "@netlify/ipx": ^1.4.0
     "@vercel/node-bridge": ^2.1.0
     chalk: ^4.1.2
@@ -458,7 +467,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: 1d2ebe7d38116d029db8a48074275247a59ef5766e39b587adf3c81df08f412230e4cce3da287850c99e77b36f90d61e3f95196b881716d5a3eda64c57ca3611
+  checksum: 50c762150daca10b36c17e0cdd8f8d53ba4a73d46020456d0353c19f3b6db6489d62b7475e957691cc56534489195f96fb66ade5af630c399aa5700c00e65574
   languageName: node
   linkType: hard
 
