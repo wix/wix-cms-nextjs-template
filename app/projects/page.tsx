@@ -32,9 +32,16 @@ export default async function Projects() {
           quality and accessibility of education for everyone. Take a look at
           some of our current and past projects.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 grid-flow-row mt-10">
+        <div
+          className="grid grid-cols-1 sm:grid-cols-3 gap-5 grid-flow-row mt-10"
+          data-testid={testIds.PROJECTS_PAGE.PROJECT_LIST}
+        >
           {items!.map((item) => (
-            <div key={item._id} className="p-4 relative">
+            <div
+              key={item._id}
+              className="p-4 relative"
+              data-testid={testIds.PROJECTS_PAGE.PROJECT_ITEM_CONTAINER}
+            >
               <div className="sm:w-[370px] h-[320px] relative">
                 <WixMediaImage
                   media={item.data!.cover}
@@ -46,6 +53,7 @@ export default async function Projects() {
                 <h2 className="mb-10 font-site">{item.data!.title}</h2>
                 <p className="text-sm mb-6">{item.data!.short_description}</p>
                 <a
+                  data-testid={testIds.PROJECTS_PAGE.PROJECT_ITEM_CTA}
                   href={`/projects/${item.data!.slug}`}
                   className="text-purple-site py-6 font-site"
                 >

@@ -1,5 +1,6 @@
 import { getWixClient } from '@app/hooks/useWixClientServer';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
+import testIds from '@app/utils/test-ids';
 
 export default async function Project({ params }: any) {
   const wixClient = await getWixClient();
@@ -12,7 +13,10 @@ export default async function Project({ params }: any) {
   const project = items![0];
 
   return (
-    <div className="relative">
+    <div
+      className="relative"
+      data-testid={testIds.PROJECT_DETAILS_PAGE.CONTAINER}
+    >
       <div className="w-full h-[400px] relative">
         <WixMediaImage
           media={project.data!.cover}

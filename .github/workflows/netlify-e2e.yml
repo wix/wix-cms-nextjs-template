@@ -19,7 +19,7 @@ jobs:
         uses: jakepartusch/wait-for-netlify-action@v1.4
         id: waitFor200
         with:
-          site_name: "wix-classes-subscriptions-nextjs" # TODO: change to your site name
+          site_name: "wix-cms-nextjs-template" # TODO: change to your site name
           max_timeout: 120 # 2 Minutes, depends on your build pipeline duration
       - uses: ./.github/actions/run-playwright
         with:
