@@ -1,5 +1,6 @@
 import { getWixClient } from '@app/hooks/useWixClientServer';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
+import testIds from '@app/utils/test-ids';
 export default async function Projects() {
   const wixClient = await getWixClient();
   const { items } = await wixClient.dataItems
@@ -20,7 +21,12 @@ export default async function Projects() {
         />
       </div>
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
-        <h1 className="text-center py-8 font-site">Our Projects</h1>
+        <h1
+          className="text-center py-8 font-site"
+          data-testid={testIds.PROJECTS_PAGE.HEADER}
+        >
+          Our Projects
+        </h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
           At ChoosEquality, we are always working on projects to improve the
           quality and accessibility of education for everyone. Take a look at

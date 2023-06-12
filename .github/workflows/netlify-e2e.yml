@@ -1,0 +1,27 @@
+name: Netlify E2E
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  netlify-e2e:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn
+      - uses: ./.github/actions/setup-playwright
+      - name: Waiting for 200 from the Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1.4
+        id: waitFor200
+        with:
+          site_name: "wix-classes-subscriptions-nextjs" # TODO: change to your site name
+          max_timeout: 120 # 2 Minutes, depends on your build pipeline duration
+      - uses: ./.github/actions/run-playwright
+        with:
+          provider: 'netlify'
+          provider-deployment-url: ${{ steps.waitFor200.outputs.url }}

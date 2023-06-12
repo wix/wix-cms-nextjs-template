@@ -1,0 +1,24 @@
+# This workflow uses actions/cache@v3, but it would always get cache miss since it runs on deployment_status trigger
+# See - https://github.com/actions/cache/issues/319
+# If GitHub would allow deployment_status trigger to access cache, it would work here too
+name: Vercel E2E
+on:
+  deployment_status:
+jobs:
+  vercel-e2e:
+    if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success' && contains(github.event.deployment_status.target_url, 'vercel-demo-wix-classes') # TODO: change to your site name
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+        cache: 'yarn'
+    - name: Install dependencies
+      run: yarn
+    - uses: ./.github/actions/setup-playwright
+    - uses: ./.github/actions/run-playwright
+      with:
+        provider: 'vercel'
+        provider-deployment-url: ${{ github.event.deployment_status.target_url }}

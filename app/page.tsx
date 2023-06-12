@@ -1,5 +1,6 @@
 import { CarouselClient } from '@app/components/Carousel/Carousel';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
+import testIds from '@app/utils/test-ids';
 
 export default function Home() {
   return (
@@ -31,7 +32,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex mt-12 sm:mt-32 sm:gap-12 flex-col sm:flex-row">
+      <div
+        className="flex mt-12 sm:mt-32 sm:gap-12 flex-col sm:flex-row"
+        data-testid={testIds.HOME_PAGE.HIGHLIGHTS}
+      >
         <div className="basis-1/3">
           <div className="h-[370px] relative">
             <WixMediaImage
@@ -48,7 +52,11 @@ export default function Home() {
               and evoke a positive change. Explore our initiatives and see what
               you can do to help.
             </p>
-            <a href="/projects" className="text-purple-site py-6 font-site">
+            <a
+              href="/projects"
+              className="text-purple-site py-6 font-site"
+              data-testid={testIds.HOME_PAGE.OUR_INITIATIVES_CTA}
+            >
               Read More
             </a>
           </div>
