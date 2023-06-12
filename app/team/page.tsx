@@ -1,5 +1,6 @@
 import { getWixClient } from '@app/hooks/useWixClientServer';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
+import testIds from '@app/utils/test-ids';
 export default async function Team() {
   const wixClient = await getWixClient();
   const { items: team } = await wixClient.dataItems
@@ -13,7 +14,7 @@ export default async function Team() {
     })
     .find();
   return (
-    <div className="relative">
+    <div className="relative" data-testid={testIds.TEAM_PAGE.CONTAINER}>
       <div className="w-full h-[400px] relative">
         <WixMediaImage
           media="https://static.wixstatic.com/media/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg/v1/fill/w_1920,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg"
@@ -31,7 +32,10 @@ export default async function Team() {
           of improving education for everyone. Meet some of our amazing team
           members below and learn more about their roles and stories.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 grid-flow-row mt-10">
+        <div
+          className="grid grid-cols-1 sm:grid-cols-4 gap-5 grid-flow-row mt-10"
+          data-testid={testIds.TEAM_PAGE.TEAM_MEMBERS}
+        >
           {team!.map((item) => (
             <div key={item._id} className="p-4 relative">
               <div className="w-[300px] h-[220px] relative">

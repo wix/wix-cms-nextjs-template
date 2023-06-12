@@ -1,8 +1,12 @@
 import './footer.css';
 import { Logo } from '@app/components/Logo/Logo';
+import testIds from '@app/utils/test-ids';
 
 const Footer = () => (
-  <footer className="m-h-56 leading-7 sm:p-14 font-site">
+  <footer
+    className="m-h-56 leading-7 sm:p-14 font-site"
+    data-testid={testIds.LAYOUT.FOOTER}
+  >
     <div className="flex flex-col sm:flex-row">
       <div className="basis-2/3 bg-blue-site text-white p-14 sm:pl-44">
         <h2 className="text-2xl sm:text-3xl font-bold">CONTACT US</h2>

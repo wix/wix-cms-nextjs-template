@@ -1,6 +1,7 @@
 import { getWixClient } from '@app/hooks/useWixClientServer';
 import { formatDate } from '@app/utils/date-formatter';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
+import testIds from '@app/utils/test-ids';
 export default async function News() {
   const wixClient = await getWixClient();
   const { items } = await wixClient.dataItems
@@ -21,16 +22,26 @@ export default async function News() {
         />
       </div>
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
-        <h1 className="text-center py-8 text-blue-site font-site">
+        <h1
+          className="text-center py-8 text-blue-site font-site"
+          data-testid={testIds.NEWS_PAGE.HEADER}
+        >
           News & Updates
         </h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
           Read the latest news and stay up to date about our organization, our
           projects, our events, and the impact we’re making.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-7 grid-flow-row mt-10">
+        <div
+          className="grid grid-cols-1 sm:grid-cols-3 gap-7 grid-flow-row mt-10"
+          data-testid={testIds.NEWS_PAGE.NEWS_LIST}
+        >
           {items!.map((item) => (
-            <div key={item._id} className="relative border">
+            <div
+              key={item._id}
+              className="relative border"
+              data-testid={testIds.NEWS_PAGE.NEWS_ITEM_CONTAINER}
+            >
               <div className="h-[320px] relative">
                 <WixMediaImage
                   media={item.data!.image}
@@ -48,6 +59,7 @@ export default async function News() {
                 <h2 className="mb-10 font-site">{item.data!.title}</h2>
                 <p className="text-sm mb-6">{item.data!.short_description}</p>
                 <a
+                  data-testid={testIds.NEWS_PAGE.NEWS_ITEM_CTA}
                   href={`/news/${item.data!.slug}`}
                   className="text-purple-site py-6 font-site"
                 >
