@@ -450,8 +450,8 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.37.4
-  resolution: "@netlify/plugin-nextjs@npm:4.37.4"
+  version: 4.38.0
+  resolution: "@netlify/plugin-nextjs@npm:4.38.0"
   dependencies:
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.6.0
@@ -476,7 +476,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: 5ddcdd16d186fe193f6407f4371414209a3cc895b7ebe986ccf1a04a8db458aff07672542c17c64fa1259fdcd63e703878c032b4e7265a5b5d75ab92100d8078
+  checksum: 04dff72678d04f3e175d74f97c494f955ab565445b69b48db7829db671c427386c3125f4005787109eb23a635ddf872e0294a883df76ae0877bd266775b8b363
   languageName: node
   linkType: hard
 
