@@ -65,10 +65,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.42.0":
-  version: 8.42.0
-  resolution: "@eslint/js@npm:8.42.0"
-  checksum: 750558843ac458f7da666122083ee05306fc087ecc1e5b21e7e14e23885775af6c55bcc92283dff1862b7b0d8863ec676c0f18c7faf1219c722fe91a8ece56b6
+"@eslint/js@npm:8.43.0":
+  version: 8.43.0
+  resolution: "@eslint/js@npm:8.43.0"
+  checksum: 580487a09c82ac169744d36e4af77bc4f582c9a37749d1e9481eb93626c8f3991b2390c6e4e69e5642e3b6e870912b839229a0e23594fae348156ea5a8ed7e2e
   languageName: node
   linkType: hard
 
@@ -450,8 +450,8 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.37.4
-  resolution: "@netlify/plugin-nextjs@npm:4.37.4"
+  version: 4.38.0
+  resolution: "@netlify/plugin-nextjs@npm:4.38.0"
   dependencies:
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.6.0
@@ -476,7 +476,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: 5ddcdd16d186fe193f6407f4371414209a3cc895b7ebe986ccf1a04a8db458aff07672542c17c64fa1259fdcd63e703878c032b4e7265a5b5d75ab92100d8078
+  checksum: 04dff72678d04f3e175d74f97c494f955ab565445b69b48db7829db671c427386c3125f4005787109eb23a635ddf872e0294a883df76ae0877bd266775b8b363
   languageName: node
   linkType: hard
 
@@ -621,18 +621,18 @@ __metadata:
   linkType: hard
 
 "@playwright/test@npm:^1.34.3":
-  version: 1.35.0
-  resolution: "@playwright/test@npm:1.35.0"
+  version: 1.35.1
+  resolution: "@playwright/test@npm:1.35.1"
   dependencies:
     "@types/node": "*"
     fsevents: 2.3.2
-    playwright-core: 1.35.0
+    playwright-core: 1.35.1
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     playwright: cli.js
-  checksum: c63a281d8711ec817906d7618563709842aaa013ac02919bb7bbef7f7162d4ace0fc1351c6aac94a8957df4d107b38440e55488e99455a07f55e1ace6bb07959
+  checksum: 3509d2f2c7397f9b0d4f49088cab8625f17d186f7e9b3389ddebf7c52ee8aae6407eab48f66b300b7bf6a33f6e3533fd5951e72bfdb001b68838af98596d5a53
   languageName: node
   linkType: hard
 
@@ -2256,13 +2256,13 @@ __metadata:
   linkType: hard
 
 "eslint@npm:^8.28.0":
-  version: 8.42.0
-  resolution: "eslint@npm:8.42.0"
+  version: 8.43.0
+  resolution: "eslint@npm:8.43.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.4.0
     "@eslint/eslintrc": ^2.0.3
-    "@eslint/js": 8.42.0
+    "@eslint/js": 8.43.0
     "@humanwhocodes/config-array": ^0.11.10
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -2300,7 +2300,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 07105397b5f2ff4064b983b8971e8c379ec04b1dfcc9d918976b3e00377189000161dac991d82ba14f8759e466091b8c71146f602930ca810c290ee3fcb3faf0
+  checksum: 55654ce00b0d128822b57526e40473d0497c7c6be3886afdc0b41b6b0dfbd34d0eae8159911b18451b4db51a939a0e6d2e117e847ae419086884fc3d4fe23c7c
   languageName: node
   linkType: hard
 
@@ -2515,12 +2515,12 @@ __metadata:
   linkType: hard
 
 "flowbite@npm:^1.5.4, flowbite@npm:^1.6.5":
-  version: 1.6.5
-  resolution: "flowbite@npm:1.6.5"
+  version: 1.6.6
+  resolution: "flowbite@npm:1.6.6"
   dependencies:
     "@popperjs/core": ^2.9.3
     mini-svg-data-uri: ^1.4.3
-  checksum: b6b7da2b3c07356e47dcec0ec4365462053b8bd0b8e6a7a5126588f0deffc31d783f5e7cd5288856a4a6562dab8d2555e0ea9b2c718e1d94a5c147655a8622f5
+  checksum: a39cdc7da835bf453f71a639c78774b17e39c5d3ec18bb504a68b3038fd2374be83eec90f6d41015eb302b8d4c1d972627904c690eca73fd6380d48a51ff9fb7
   languageName: node
   linkType: hard
 
@@ -4523,12 +4523,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.35.0":
-  version: 1.35.0
-  resolution: "playwright-core@npm:1.35.0"
+"playwright-core@npm:1.35.1":
+  version: 1.35.1
+  resolution: "playwright-core@npm:1.35.1"
   bin:
     playwright-core: cli.js
-  checksum: e23050c9de128e02b16ffbeb1adaca6dddd85a6fd581e71da38947f66b3c910504d628285340e3d6de8c099a488ab9dad14241aefe615f65c01a5a3e3b6e633d
+  checksum: 179abc0051f00474e528935b507fa8cedc986b2803b020d7679878ba28cdd7036ad5a779792aad2ad281f8dc625eb1d2fb77663cb8de0d20c7ffbda7c18febdd
   languageName: node
   linkType: hard
 
