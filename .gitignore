@@ -46,3 +46,9 @@ next-env.d.ts
 !.yarn/sdks
 !.yarn/versions
 .yarn/install-state.gz
+#IDEA
+.idea
+#Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
