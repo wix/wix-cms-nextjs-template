@@ -671,13 +671,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/grecaptcha@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "@types/grecaptcha@npm:3.0.4"
-  checksum: 5413df122f73a0bfc9304860c42f8e78549557fc03d9e3f97d4241c607103c575503024f3f67ac66700474f1d673e5fbffa466679844e1e0383a8d3239912343
-  languageName: node
-  linkType: hard
-
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -814,19 +807,18 @@ __metadata:
   linkType: hard
 
 "@wix/api-client@npm:^1.1.67":
-  version: 1.2.6
-  resolution: "@wix/api-client@npm:1.2.6"
+  version: 1.2.7
+  resolution: "@wix/api-client@npm:1.2.7"
   dependencies:
     "@babel/runtime": ^7.22.6
-    "@types/grecaptcha": ^3.0.4
-    "@wix/identity": ^1.0.44
-    "@wix/image-kit": ^1.34.0
+    "@wix/identity": ^1.0.47
+    "@wix/image-kit": ^1.35.0
     "@wix/redirects": ^1.0.22
-    "@wix/sdk-types": 1.2.6
+    "@wix/sdk-types": 1.2.7
     pkce-challenge: ^3.1.0
     querystring: ^0.2.1
     type-fest: ^3.13.1
-  checksum: 45ecac4c0cc59be87a8665223c314756d7d7374ad1199854d08d592416855a7e043fbb0c6f8ef0d0b7a31e7da24a27c3aa2d28c1deda29da59b348a046b76f71
+  checksum: 943ddf8cb178bd9acc566d141d680ecbf594113054195a6b9c28a42b1d1bd828e7441806eace0ab920e6c8bbae473882c31ed00b02d1c6be56247b515a7cf44e
   languageName: node
   linkType: hard
 
@@ -852,7 +844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.44":
+"@wix/identity@npm:^1.0.47":
   version: 1.0.47
   resolution: "@wix/identity@npm:1.0.47"
   dependencies:
@@ -863,13 +855,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.34.0":
-  version: 1.34.0
-  resolution: "@wix/image-kit@npm:1.34.0"
+"@wix/image-kit@npm:^1.35.0":
+  version: 1.35.0
+  resolution: "@wix/image-kit@npm:1.35.0"
   dependencies:
     "@babel/runtime": ^7.0.0
     tslib: ^2.0.0
-  checksum: 82523d0682a0ed309c5b2c86f17f3704f93a6093bbb18cf2ce603bace2c43873b72fed08fa5001c0d53d57a003c5181b2e0ed3af990ff87a13738e272e59c740
+  checksum: 38c37c0f0769521684e3dcd9ef15419293f5dc77ce86ac3a4fb9340fd201fc0fdf978fff4b08e2f0a26a10225452c7b9301fe53dd50787c2c308dee492cdf104
   languageName: node
   linkType: hard
 
@@ -986,12 +978,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:1.2.6":
-  version: 1.2.6
-  resolution: "@wix/sdk-types@npm:1.2.6"
+"@wix/sdk-types@npm:1.2.7":
+  version: 1.2.7
+  resolution: "@wix/sdk-types@npm:1.2.7"
   dependencies:
     "@babel/runtime": ^7.22.6
-  checksum: 16e248dc055e87d1fc34dc22337aaf3e8a51234dcc79b6797e1a5f623096200838f04ee254900157ec7a2db6ea7a65d4f291ac20a85c02460bae07210729ee41
+  checksum: 16d04a6a53cc262213dd14d4e33e31aca535f35d3bf27bced9b399d8c4f5da164f40241b8acb624cf7979c2ed1a4cb3f78055b46f919bd0bc648b4c6460a60d2
   languageName: node
   linkType: hard
 
