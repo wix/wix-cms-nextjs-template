@@ -436,9 +436,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/ipx@npm:^1.4.1":
-  version: 1.4.1
-  resolution: "@netlify/ipx@npm:1.4.1"
+"@netlify/ipx@npm:^1.4.2":
+  version: 1.4.2
+  resolution: "@netlify/ipx@npm:1.4.2"
   dependencies:
     "@netlify/functions": ^1.6.0
     etag: ^1.8.1
@@ -450,17 +450,17 @@ __metadata:
     node-fetch: ^2.0.0
     ufo: ^1.0.0
     unstorage: ^1.0.0
-  checksum: a11964a47786c57bb1c768ab8b8e0b70b9c03d4bcb9a381370c22478dfd3c883df9f02940c2ea2215b0d12e50822d370e590272ac650e6a44fbb0cd40a85d6c1
+  checksum: f9a53d6c9a7d7bf50cd22a0a7402f074348219cecffb78f43d7f7b1e63a4497b718d486087f4a6b0a67cdd47bece9f434111d7bc28920d44f52eb2e918628edb
   languageName: node
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.39.1
-  resolution: "@netlify/plugin-nextjs@npm:4.39.1"
+  version: 4.39.3
+  resolution: "@netlify/plugin-nextjs@npm:4.39.3"
   dependencies:
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.6.0
-    "@netlify/ipx": ^1.4.1
+    "@netlify/ipx": ^1.4.2
     "@vercel/node-bridge": ^2.1.0
     chalk: ^4.1.2
     chokidar: ^3.5.3
@@ -481,7 +481,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: 6fa4457e9566a5dac16af7cccf651166ec8d6e89b09bf9c2eb90fa68e46b75fef561608b74b86117f76569983fa90e59d13db808e5da0060845b3bf1366d31e3
+  checksum: 1d8dc863278f24515d2498169065a61116603beabfa43514f1cfbca21fb0838d4d5746222ba9ff73e2e3977127f1bba302f31110f6dc8350ea47b926379ba4b5
   languageName: node
   linkType: hard
 
@@ -671,13 +671,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/grecaptcha@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "@types/grecaptcha@npm:3.0.4"
-  checksum: 5413df122f73a0bfc9304860c42f8e78549557fc03d9e3f97d4241c607103c575503024f3f67ac66700474f1d673e5fbffa466679844e1e0383a8d3239912343
-  languageName: node
-  linkType: hard
-
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -814,19 +807,18 @@ __metadata:
   linkType: hard
 
 "@wix/api-client@npm:^1.1.67":
-  version: 1.2.6
-  resolution: "@wix/api-client@npm:1.2.6"
+  version: 1.2.8
+  resolution: "@wix/api-client@npm:1.2.8"
   dependencies:
     "@babel/runtime": ^7.22.6
-    "@types/grecaptcha": ^3.0.4
-    "@wix/identity": ^1.0.44
-    "@wix/image-kit": ^1.34.0
+    "@wix/identity": ^1.0.47
+    "@wix/image-kit": ^1.35.0
     "@wix/redirects": ^1.0.22
-    "@wix/sdk-types": 1.2.6
+    "@wix/sdk-types": 1.2.8
     pkce-challenge: ^3.1.0
     querystring: ^0.2.1
     type-fest: ^3.13.1
-  checksum: 45ecac4c0cc59be87a8665223c314756d7d7374ad1199854d08d592416855a7e043fbb0c6f8ef0d0b7a31e7da24a27c3aa2d28c1deda29da59b348a046b76f71
+  checksum: d4dd15a5f8542c4006b939e13fc0e63a15770a1f2f7d39739185dd3aeb9cbccf5d265248d714239438a74a6f6d5259d1e0dbc2bf9ea0d2b6d78592d365aa7f3f
   languageName: node
   linkType: hard
 
@@ -852,24 +844,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.44":
-  version: 1.0.47
-  resolution: "@wix/identity@npm:1.0.47"
+"@wix/identity@npm:^1.0.47":
+  version: 1.0.50
+  resolution: "@wix/identity@npm:1.0.50"
   dependencies:
     "@wix/metro-runtime": ^1.0.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
     "@wix/sdk-types": ^1.0.0
-  checksum: 39812b6b9cc1e74ab4141caee6536bcdfc2fc38da0c146358ac0bcb94b8bfa0dbc76fb6c278a5a0ad50582c74b62f48d9a45176fb4313b66ac23d5f24e44516d
+  checksum: 0b46203aa4003adcc3009d82076c22bc44b69a9228576c72d5095b0417400daf423a142957d6e2a6f2f19afc5e20a16442bd47568de6fab78d659f9d3c8a25b5
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.34.0":
-  version: 1.34.0
-  resolution: "@wix/image-kit@npm:1.34.0"
+"@wix/image-kit@npm:^1.35.0":
+  version: 1.36.0
+  resolution: "@wix/image-kit@npm:1.36.0"
   dependencies:
     "@babel/runtime": ^7.0.0
     tslib: ^2.0.0
-  checksum: 82523d0682a0ed309c5b2c86f17f3704f93a6093bbb18cf2ce603bace2c43873b72fed08fa5001c0d53d57a003c5181b2e0ed3af990ff87a13738e272e59c740
+  checksum: 47c1b4662cafa7b8ff63afb8bd0be9e9cf1e424551e08b766121e9846b01c707f0d1b440f3299abc44020a54d8d40020a89602fdf6d6fd32adc1eefc70177e43
   languageName: node
   linkType: hard
 
@@ -986,12 +978,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:1.2.6":
-  version: 1.2.6
-  resolution: "@wix/sdk-types@npm:1.2.6"
+"@wix/sdk-types@npm:1.2.8":
+  version: 1.2.8
+  resolution: "@wix/sdk-types@npm:1.2.8"
   dependencies:
     "@babel/runtime": ^7.22.6
-  checksum: 16e248dc055e87d1fc34dc22337aaf3e8a51234dcc79b6797e1a5f623096200838f04ee254900157ec7a2db6ea7a65d4f291ac20a85c02460bae07210729ee41
+  checksum: a425717b8f964509db933e99bfc27933e0703ba7f3205dda3b6f96310eb70cbd09402d36dc66152996030cc9d3232e24d3edf4c0d2aa0d070b63da386e18ea88
   languageName: node
   linkType: hard
 
@@ -2091,13 +2083,13 @@ __metadata:
   linkType: hard
 
 "eslint-config-prettier@npm:^8.5.0":
-  version: 8.9.0
-  resolution: "eslint-config-prettier@npm:8.9.0"
+  version: 8.10.0
+  resolution: "eslint-config-prettier@npm:8.10.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: a675d0dabd76b700ef2d062b5ec6a634e105a8e8c070f95281fd2ccb614527fac60b4c758132058c50f0521fd19313f1f5be45ce9ebf081f2e5f77ae6eb7d8db
+  checksum: 153266badd477e49b0759816246b2132f1dbdb6c7f313ca60a9af5822fd1071c2bc5684a3720d78b725452bbac04bb130878b2513aea5e72b1b792de5a69fec8
   languageName: node
   linkType: hard
 
@@ -2536,12 +2528,12 @@ __metadata:
   linkType: hard
 
 "flowbite@npm:^1.5.4, flowbite@npm:^1.6.6":
-  version: 1.7.0
-  resolution: "flowbite@npm:1.7.0"
+  version: 1.8.1
+  resolution: "flowbite@npm:1.8.1"
   dependencies:
     "@popperjs/core": ^2.9.3
     mini-svg-data-uri: ^1.4.3
-  checksum: 3efa24064bb4992e92893c3edee866aa4db570a2a308275ecbd77fe0068d7bd325963fd8f4c608b0de44b51411b13f33606fe7facc1239a3784b5a3f4ae63aea
+  checksum: 51fa33656082ae15e66fefdf595d76cad4e7d80795d5c4174e4cfcb56bd03d867a11d42fe83a6adc1272a895edd657a76b6bdad8ccf86781d9bf34a85c516525
   languageName: node
   linkType: hard
 
