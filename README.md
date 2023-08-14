@@ -10,7 +10,7 @@ To integrate the Wix Content Manager business solution with the template, first 
 
 ### Step 1: Create a project on Wix
 
-Create a [new Wix Headless project](https://www.wix.com/intro/headless?referralInfo=netlify_github_education). For instructions on creating a Wix project, see [Create a Wix Headless Project](https://dev.wix.com/docs/go-headless/getting-started/setup/general-setup/create-a-project).
+Create a [new Wix Headless project](https://www.wix.com/intro/headless?ref=netlify_github_education). For instructions on creating a Wix project, see [Create a Wix Headless Project](https://dev.wix.com/docs/go-headless/getting-started/setup/general-setup/create-a-project).
 
 When prompted to add functionalities to your new project, you don't need to select any business solutions, since every Wix Headless project includes CMS support:
 
