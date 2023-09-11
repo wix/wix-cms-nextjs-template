@@ -10,7 +10,7 @@ Prerequisites:
 
 1. [Create a Wix Headless project](https://dev.wix.com/docs/go-headless/getting-started/setup/general-setup/create-a-project)
 2. [Add the Content Manager app to your project](https://dev.wix.com/docs/go-headless/getting-started/setup/general-setup/add-apps-to-a-project)
-3. Authorize the template with [quick start deployment](https://manage.wix.com/headless-funnel-nextjs/netlify?repository=https://github.com/wix/wix-cms-nextjs-template) or by [creating an OAuth app](https://dev.wix.com/docs/go-headless/getting-started/setup/authorization/create-an-o-auth-app-for-visitors-and-members)
+3. Authorize the template with [quick start deployment](https://manage.wix.com/headless-funnel-nextjs/select-platform?templateName=cms) or by [creating an OAuth app](https://dev.wix.com/docs/go-headless/getting-started/setup/authorization/create-an-o-auth-app-for-visitors-and-members)
 
 Set up environment variables to consume Wix Headless APIs:
 
