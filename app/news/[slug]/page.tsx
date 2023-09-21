@@ -38,7 +38,7 @@ export default async function New({ params }: any) {
         </div>
         <p
           className="py-6 max-w-3xl text-sm mx-auto"
-          dangerouslySetInnerHTML={{ __html: item.data!.long_description }}
+          dangerouslySetInnerHTML={{ __html: item.data!.longDescription }}
         />
       </div>
     </div>
