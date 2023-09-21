@@ -3,12 +3,12 @@ import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 export default async function Team() {
   const wixClient = await getWixClient();
-  const { items: team } = await wixClient.dataItems
+  const { items: team } = await wixClient.items
     .queryDataItems({
       dataCollectionId: 'Our-Team',
     })
     .find();
-  const { items: volunteers } = await wixClient.dataItems
+  const { items: volunteers } = await wixClient.items
     .queryDataItems({
       dataCollectionId: 'Volunteers',
     })

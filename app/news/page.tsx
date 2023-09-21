@@ -4,7 +4,7 @@ import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 export default async function News() {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.dataItems
+  const { items } = await wixClient.items
     .queryDataItems({
       dataCollectionId: 'News',
     })
