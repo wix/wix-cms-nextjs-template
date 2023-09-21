@@ -795,31 +795,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/api-client@npm:^1.1.67":
-  version: 1.5.0
-  resolution: "@wix/api-client@npm:1.5.0"
-  dependencies:
-    "@babel/runtime": ^7.22.15
-    "@wix/identity": ^1.0.57
-    "@wix/image-kit": ^1.37.0
-    "@wix/metro-runtime": ^1.1529.0
-    "@wix/redirects": ^1.0.24
-    "@wix/sdk-types": 1.5.0
-    pkce-challenge: ^3.1.0
-    querystring: ^0.2.1
-    type-fest: ^3.13.1
-  checksum: 64b64114dcc55a14c2a2e48bfdbc4d61c83638326f6f5b8f9585a96b0c67a72df91da91746a3f96d60531e5229dfe845b2553d838b8ffad232e4c735af1a3494
-  languageName: node
-  linkType: hard
-
-"@wix/data-items@npm:^1.0.3":
-  version: 1.0.4
-  resolution: "@wix/data-items@npm:1.0.4"
+"@wix/data@npm:^1.0.47":
+  version: 1.0.47
+  resolution: "@wix/data@npm:1.0.47"
   dependencies:
     "@wix/metro-runtime": ^1.0.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
     "@wix/sdk-types": ^1.0.0
-  checksum: 26b1fd31027480a5c67444c5bd78ba70b09ece6cdd70ebb14399f9b75f41300e443b633ffe19f6d0b3b5ce251d439d23f444b68dd9038a8484c10768f035fe8e
+  checksum: c586259b941b3a2d3954e4e4bf01aa2e05d3992ebcd70e07d172dd0a17824b1f323628558cc622c7fe8ec070d7a8923f936d288358b6d795c8a9865be585c4c5
   languageName: node
   linkType: hard
 
@@ -1069,6 +1052,27 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.21.5
   checksum: e1a53c7bb922a9c7ff21d8e1f6b7c80ea91d59a823db353b66bce9d9fb78b8e2cf303ee4da07a2a0570e54d81d5ad96227f5c3faeb261c2b15994369fd71a5bd
+  languageName: node
+  linkType: hard
+
+"@wix/sdk@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "@wix/sdk@npm:1.5.0"
+  dependencies:
+    "@babel/runtime": ^7.22.15
+    "@wix/identity": ^1.0.57
+    "@wix/image-kit": ^1.37.0
+    "@wix/metro-runtime": ^1.1529.0
+    "@wix/redirects": ^1.0.24
+    "@wix/sdk-types": 1.5.0
+    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    pkce-challenge: ^3.1.0
+    querystring: ^0.2.1
+    type-fest: ^3.13.1
+  dependenciesMeta:
+    graphql:
+      optional: true
+  checksum: ecd32f9c5b2a79b4697281b7bda89ef6bff1b5476437107d994c0782257628cced433b74379f515f26e68cc872e099d0b6292bae0d1028b6cfdbd4f140b142a1
   languageName: node
   linkType: hard
 
@@ -2960,6 +2964,13 @@ __metadata:
   version: 1.4.0
   resolution: "graphemer@npm:1.4.0"
   checksum: bab8f0be9b568857c7bec9fda95a89f87b783546d02951c40c33f84d05bb7da3fd10f863a9beb901463669b6583173a8c8cc6d6b306ea2b9b9d5d3d943c3a673
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0":
+  version: 16.8.1
+  resolution: "graphql@npm:16.8.1"
+  checksum: 8d304b7b6f708c8c5cc164b06e92467dfe36aff6d4f2cf31dd19c4c2905a0e7b89edac4b7e225871131fd24e21460836b369de0c06532644d15b461d55b1ccc0
   languageName: node
   linkType: hard
 
@@ -5985,8 +5996,8 @@ __metadata:
     "@types/node": 18.11.8
     "@types/react": 18.0.24
     "@types/react-dom": 18.0.8
-    "@wix/api-client": ^1.1.67
-    "@wix/data-items": ^1.0.3
+    "@wix/data": ^1.0.47
+    "@wix/sdk": ^1.5.0
     autoprefixer: ^10.4.13
     eslint: ^8.28.0
     eslint-config-next: ^13.4.9

@@ -4,7 +4,7 @@ import testIds from '@app/utils/test-ids';
 
 export default async function New({ params }: any) {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.dataItems
+  const { items } = await wixClient.items
     .queryDataItems({
       dataCollectionId: 'News',
     })

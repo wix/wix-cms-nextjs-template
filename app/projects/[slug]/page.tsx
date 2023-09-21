@@ -4,7 +4,7 @@ import testIds from '@app/utils/test-ids';
 
 export default async function Project({ params }: any) {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.dataItems
+  const { items } = await wixClient.items
     .queryDataItems({
       dataCollectionId: 'Our-Projects',
     })
