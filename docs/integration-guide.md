@@ -1,4 +1,5 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://manage.wix.com/headless-funnel-nextjs/netlify?repository=https://github.com/wix/wix-cms-nextjs-template)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://manage.wix.com/headless-funnel-nextjs/netlify?repository=https://github.com/wix/wix-cms-nextjs-template) &emsp; [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone/hidden?integration-ids=oac_LZ0wUqGylqzgr8bE8a1R7JTE&skippable-integrations=1&build-command=yarn+build&deploymentIds=dpl_9Gtegfcme9RUmTXFvVGrP8BwDGUV&s=https%3A%2F%2Fgithub.com%2Fwix%2Fwix-cms-nextjs-template&demo-image=https%3A%2F%2Fgithub.com%2Fwix%2Fwix-cms-nextjs-template%2Fraw%2Fmain%2Fdocs%2Fmedia%2Ftemplate-showcase.gif&external-id=%7B%22repo%22%3A%22https%3A%2F%2Fgithub.com%2Fwix%2Fwix-cms-nextjs-template%22%2C%22referralInfo%22%3A%22repo-readme_education%22%7D&demo-title=Education+Starter&demo-description=Education+starter+template+with+Wix%E2%80%99s+Content+Management+solution.&demo-url=https%3A%2F%2Fvercel.cms-demo.wix.dev&repository-name=wix-cms-nextjs-template&referralInfo=repo-readme_education)
 
 # A Wix Data Next.js Education Template
 
@@ -39,6 +40,8 @@ Click the quick start deployment link below to automatically authorize your temp
 
 Authentication credentials are automatically incorporated into the template, making it easy to get started coding and customizing.
 
+---
+
 ##### Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3dc4d147-be85-4063-bf14-01cc80da8125/deploy-status)](https://app.netlify.com/sites/wix-cms-nextjs-template/deploys)
 
@@ -48,6 +51,19 @@ Authentication credentials are automatically incorporated into the template, mak
 For more information, see [How to Deploy Next.js Sites to Netlify](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/).
 
 You can also view our [live demo site](https://netlify.cms-demo.wix.dev/). 
+
+---
+
+##### Vercel
+![Vercel](https://vercelbadge.vercel.app/api/wix/wix-cms-nextjs-template?style=flat-square)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone/hidden?integration-ids=oac_LZ0wUqGylqzgr8bE8a1R7JTE&skippable-integrations=1&build-command=yarn+build&deploymentIds=dpl_9Gtegfcme9RUmTXFvVGrP8BwDGUV&s=https%3A%2F%2Fgithub.com%2Fwix%2Fwix-cms-nextjs-template&demo-image=https%3A%2F%2Fgithub.com%2Fwix%2Fwix-cms-nextjs-template%2Fraw%2Fmain%2Fdocs%2Fmedia%2Ftemplate-showcase.gif&external-id=%7B%22repo%22%3A%22https%3A%2F%2Fgithub.com%2Fwix%2Fwix-cms-nextjs-template%22%2C%22referralInfo%22%3A%22repo-readme_education%22%7D&demo-title=Education+Starter&demo-description=Education+starter+template+with+Wix%E2%80%99s+Content+Management+solution.&demo-url=https%3A%2F%2Fvercel.cms-demo.wix.dev&repository-name=wix-cms-nextjs-template&referralInfo=repo-readme_education)
+
+For more information, see [How to Deploy Next.js Sites to Vercel](https://vercel.com/docs/frameworks/nextjs).
+
+You can also view our [live demo site](https://vercel.cms-demo.wix.dev/). 
+
+---
 
 #### Option B: Create an OAuth client ID in the Wix dashboard
 
