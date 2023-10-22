@@ -216,6 +216,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@netlify/blobs@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@netlify/blobs@npm:2.2.0"
+  checksum: 544c81cbec5f1455f927c92d626e046ddb9b3a54362895d1e64b62df144d6d0b106df4835f5314c7b9c4827983a03beb79f4c8604aac6da39f4f4eb06b3cd0c8
+  languageName: node
+  linkType: hard
+
 "@netlify/esbuild-android-64@npm:0.14.39":
   version: 0.14.39
   resolution: "@netlify/esbuild-android-64@npm:0.14.39"
@@ -472,9 +479,10 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.40.2
-  resolution: "@netlify/plugin-nextjs@npm:4.40.2"
+  version: 4.41.1
+  resolution: "@netlify/plugin-nextjs@npm:4.41.1"
   dependencies:
+    "@netlify/blobs": ^2.2.0
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.6.0
     "@netlify/ipx": ^1.4.5
@@ -498,7 +506,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: cd1b4302187253ab84c101a43174507208c8209605dc7b8ca05800f50ec5f299ba31b3c426b1cb9f1d876f7dcfc8deed8d0b1ad96b5c492e65bfd560039de103
+  checksum: 2afca0c52afe2093588a6ff6d9426a2e1f377346ba44a9ebdfcd2ec8c77f21c3d8251bd36b98c2acf1a3bed4f6879c530d4df2d0aee4e2409348d1c3840bb58a
   languageName: node
   linkType: hard
 
