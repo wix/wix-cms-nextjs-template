@@ -12,32 +12,32 @@ export default async function About() {
         />
       </div>
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
-        <h1 className="text-center py-8 font-site">About ChoosEquality</h1>
+        <h1 className="text-center py-8 font-site">About Razor Talent</h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          ChoosEquality is a non-profit organization that aims to bring
-          education to everyone, regardless of age, background, or location. We
-          believe that education is a human right and a powerful force for
-          positive change in the world. We provide training, tools, resources,
-          and support to help schools achieve their educational goals and
-          aspirations. We also advocate for policies and reforms that promote
-          quality education for all.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
+          Say some good things about Razor Talent.Say some good things about Razor Talent.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          We envision a world where everyone has the opportunity to learn, grow,
-          and thrive. Our mission is to empower people and communities with the
-          knowledge and skills they need to create a better future for
-          themselves and others.
+        Say some good things about Razor Talent.Say some good things about Razor Talent.
+        Say some good things about Razor Talent.Say some good things about Razor Talent.
+        Say some good things about Razor Talent.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          We are ChoosEquality and we invite you to join us in making a
-          difference.
+        Say some good things about Razor Talent.Say some good things about Razor Talent.
+        Say some good things about Razor Talent.
         </p>
         <div className="justify-center flex flex-col sm:flex-row gap-6 mt-10 text-center">
           <a href="" className="btn-main text-lg">
-            2035 Financial Statement
+            Our Vision for 2024
           </a>
           <a href="" className="btn-main text-lg">
-            Certification Registry
+            Something Razor Talent
           </a>
         </div>
         <h2 className="text-center text-4xl my-10 sm:my-20 font-site">
@@ -74,8 +74,8 @@ export default async function About() {
               </g>
             </svg>
             <span className="font-site">
-              Spread empathy
-              <br /> through education
+              Help you
+              <br /> to grow
             </span>
           </div>
           <div className="text-center flex flex-col items-center gap-4">
@@ -143,7 +143,7 @@ export default async function About() {
               </g>
             </svg>
             <span className="font-site">
-              Increase donations equally <br /> across 24 countries
+              Another goal if <br /> razor talent here
             </span>
           </div>
           <div className="text-center flex flex-col items-center gap-4">
@@ -256,7 +256,7 @@ export default async function About() {
               </g>
             </svg>
             <span className="font-site">
-              Help more children and teens <br /> graduate from high school
+              Yet another goal here <br /> for the company
             </span>
           </div>
         </div>

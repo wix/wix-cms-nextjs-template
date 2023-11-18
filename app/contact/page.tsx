@@ -14,7 +14,7 @@ export default async function Page() {
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
         <h1 className="text-center py-8 font-site">Contact</h1>
         <div className="max-w-4xl mx-auto">
-          <h3 className="font-site text-lg my-3">Volunteer</h3>
+          <h3 className="font-site text-lg my-3">Client</h3>
           <form className="border-2 border-blue-site p-8">
             <div className="flex flex-col sm:flex-row sm:gap-12">
               <div className="basis-1/2">
