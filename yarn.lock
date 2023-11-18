@@ -443,21 +443,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^2.1.0":
-  version: 2.2.1
-  resolution: "@netlify/functions@npm:2.2.1"
+"@netlify/functions@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@netlify/functions@npm:2.4.0"
   dependencies:
-    "@netlify/serverless-functions-api": 1.8.0
+    "@netlify/serverless-functions-api": 1.11.0
     is-promise: ^4.0.0
-  checksum: 5805d820897dc9295904b5c5629c4f744d462b5c939e31e681f217bdc79509776ab256645b287fb5f1cbc7880b133dcb4e19f8145b8bb5f8982bdaf0c9dbee1c
+  checksum: 5be7773e351b533ea70ff56a4abd3d16548316e199e70d320743fd7831bd55ef825ad01cec1ba8505d7230c2dafc0fc739224175bb51f3735738a70531fb3692
   languageName: node
   linkType: hard
 
-"@netlify/ipx@npm:^1.4.5":
-  version: 1.4.5
-  resolution: "@netlify/ipx@npm:1.4.5"
+"@netlify/ipx@npm:^1.4.6":
+  version: 1.4.6
+  resolution: "@netlify/ipx@npm:1.4.6"
   dependencies:
-    "@netlify/functions": ^2.1.0
+    "@netlify/functions": ^2.4.0
     etag: ^1.8.1
     fs-extra: ^11.0.0
     ipx: ^1.3.1
@@ -466,8 +466,8 @@ __metadata:
     murmurhash: ^2.0.0
     node-fetch: ^2.0.0
     ufo: ^1.0.0
-    unstorage: ^1.0.0
-  checksum: 36771d3ec56cdd429add6092e3d873f94e220cb17cddafea787b6b2295d22cd9b89625dcf87e475af4120c33c412b297081590ab411cd19e09c2666b3b2048aa
+    unstorage: 1.9.0
+  checksum: f1c5e706f2cf97f49c7e0c6c99c872b084423b77225c2676150cacee68cc8e15b39b44d041724739f3ef1c34353123b5e2220938fd6adc8bbaa1557d4c790b1f
   languageName: node
   linkType: hard
 
@@ -479,13 +479,13 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.41.1
-  resolution: "@netlify/plugin-nextjs@npm:4.41.1"
+  version: 4.41.2
+  resolution: "@netlify/plugin-nextjs@npm:4.41.2"
   dependencies:
     "@netlify/blobs": ^2.2.0
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.6.0
-    "@netlify/ipx": ^1.4.5
+    "@netlify/ipx": ^1.4.6
     "@vercel/node-bridge": ^2.1.0
     chalk: ^4.1.2
     chokidar: ^3.5.3
@@ -506,17 +506,17 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: 2afca0c52afe2093588a6ff6d9426a2e1f377346ba44a9ebdfcd2ec8c77f21c3d8251bd36b98c2acf1a3bed4f6879c530d4df2d0aee4e2409348d1c3840bb58a
+  checksum: 43bf5313cd6a0cdd134abfc49b54faa5379c13ea7afdba4b553bb148d3b2ed26da8a8da61767bff54c48f8adc25dcb547b95d1b49149c01eae55794d8ce19870
   languageName: node
   linkType: hard
 
-"@netlify/serverless-functions-api@npm:1.8.0":
-  version: 1.8.0
-  resolution: "@netlify/serverless-functions-api@npm:1.8.0"
+"@netlify/serverless-functions-api@npm:1.11.0":
+  version: 1.11.0
+  resolution: "@netlify/serverless-functions-api@npm:1.11.0"
   dependencies:
     "@netlify/node-cookies": ^0.1.0
     urlpattern-polyfill: 8.0.2
-  checksum: f675451f0681bf4065356b8956c242a08f90aebb866992d46469664e0859bf4b762f167ed14c39f75c3434f4c2386089c8448f615a773adeaf376538424b7aa9
+  checksum: 38809d8df8cc422b4d2a42589138ab335e36d669ffe6c45f74fec48b2ac46b47ea91aca7e4ef7f3d518591a4f46c0ae7a5474b9d4e738952a8e18efdde0f3f9a
   languageName: node
   linkType: hard
 
@@ -1830,13 +1830,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:^2.0.19":
-  version: 2.0.20
-  resolution: "colorette@npm:2.0.20"
-  checksum: 0c016fea2b91b733eb9f4bcdb580018f52c0bc0979443dad930e5037a968237ac53d9beb98e218d2e9235834f8eebce7f8e080422d6194e957454255bde71d3d
-  languageName: node
-  linkType: hard
-
 "commander@npm:^2.20.3":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
@@ -2113,7 +2106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"destr@npm:^1.1.1, destr@npm:^1.2.2":
+"destr@npm:^1.1.1":
   version: 1.2.2
   resolution: "destr@npm:1.2.2"
   checksum: 3906b49513a64d8442dacb8b798c59d66257ded4ccd2ef1d99b58644d4aa6b30ca61f9a9823d3dcbc78b4db812596e53e85e499f39a498b3b165a045b5228b2b
@@ -3103,13 +3096,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-port-please@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "get-port-please@npm:3.0.1"
-  checksum: a5de771314986e45872354a72e24f27c13884c14be9e00b7332bc53de971c50787d2ae61dd81ef6d1eb2df5c35b1e3528906de29ac4a5127769f7ebee6e8f100
-  languageName: node
-  linkType: hard
-
 "get-port-please@npm:^3.1.1":
   version: 3.1.1
   resolution: "get-port-please@npm:3.1.1"
@@ -3317,22 +3303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.6.4":
-  version: 1.6.5
-  resolution: "h3@npm:1.6.5"
-  dependencies:
-    cookie-es: ^1.0.0
-    defu: ^6.1.2
-    destr: ^1.2.2
-    iron-webcrypto: ^0.7.0
-    radix3: ^1.0.1
-    ufo: ^1.1.2
-    uncrypto: ^0.1.2
-  checksum: 23b34f7cc62a46bcf5ac2e51b39af4a4ff425483b90cde8ca8310e8dcd6d1f7c2377dd72f26c1fcaff88497bd14957f2fd14422e2306990b4541d23077f1e131
-  languageName: node
-  linkType: hard
-
-"h3@npm:^1.8.1":
+"h3@npm:^1.7.1, h3@npm:^1.8.1":
   version: 1.8.2
   resolution: "h3@npm:1.8.2"
   dependencies:
@@ -3581,13 +3552,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip-regex@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "ip-regex@npm:5.0.0"
-  checksum: 4098b2df89c015f1484a5946e733ec126af8c1828719d90e09f04af23ce487e1a852670e4d3f51b0dc6dfbaf7d8bfab23fd7893ca60e69833da99b7b1ee3623b
-  languageName: node
-  linkType: hard
-
 "ip@npm:^2.0.0":
   version: 2.0.0
   resolution: "ip@npm:2.0.0"
@@ -3621,13 +3585,6 @@ __metadata:
   version: 0.10.1
   resolution: "iron-webcrypto@npm:0.10.1"
   checksum: a473820d5ab5cb1dfbf00ee06f9b3a48b99fb2bb3058485ab13b153e7cd71dd63af74e6df6a5a4fb6b09d6041d049583913e4c6fff3bd5301087472ea78372ce
-  languageName: node
-  linkType: hard
-
-"iron-webcrypto@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "iron-webcrypto@npm:0.7.0"
-  checksum: e866c039bf06444dbb1986821df87706dc90ec1c04a03b27eb7f554f4c8dc43b6647f434645060a22c59990f9acac4b87a454adf47d89e5509e5bd627cd423be
   languageName: node
   linkType: hard
 
@@ -4129,23 +4086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"listhen@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "listhen@npm:1.0.4"
-  dependencies:
-    clipboardy: ^3.0.0
-    colorette: ^2.0.19
-    defu: ^6.1.2
-    get-port-please: ^3.0.1
-    http-shutdown: ^1.2.2
-    ip-regex: ^5.0.0
-    node-forge: ^1.3.1
-    ufo: ^1.1.1
-  checksum: 9ab54b9d236a1895306d60deb4f1b007ab0ff27ab6d0009a7da912523aebce4d2f4efe3377d4d45e1d78087aa92bd96d999bf1f5acce433703a8cf348242e817
-  languageName: node
-  linkType: hard
-
-"listhen@npm:^1.5.5":
+"listhen@npm:^1.2.2, listhen@npm:^1.5.5":
   version: 1.5.5
   resolution: "listhen@npm:1.5.5"
   dependencies:
@@ -4244,6 +4185,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:^10.0.0":
+  version: 10.0.2
+  resolution: "lru-cache@npm:10.0.2"
+  dependencies:
+    semver: ^7.3.5
+  checksum: 83ad0e899d79f48574bdda131fe8157c6d65cbd073a6e78e0d1a3467a85dce1ef4d8dc9fd618a56c57a068271501c81d54471e13f84dd121e046b155ed061ed4
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
@@ -4257,13 +4207,6 @@ __metadata:
   version: 7.18.3
   resolution: "lru-cache@npm:7.18.3"
   checksum: e550d772384709deea3f141af34b6d4fa392e2e418c1498c078de0ee63670f1f46f5eee746e8ef7e69e1c895af0d4224e62ee33e66a543a14763b0f2e74c1356
-  languageName: node
-  linkType: hard
-
-"lru-cache@npm:^9.1.1":
-  version: 9.1.1
-  resolution: "lru-cache@npm:9.1.1"
-  checksum: 4d703bb9b66216bbee55ead82a9682820a2b6acbdfca491b235390b1ef1056000a032d56dfb373fdf9ad4492f1fa9d04cc9a05a77f25bd7ce6901d21ad9b68b7
   languageName: node
   linkType: hard
 
@@ -4682,10 +4625,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch-native@npm:^1.0.2, node-fetch-native@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "node-fetch-native@npm:1.1.1"
-  checksum: 41fe59179eb94b6ffb25e657e5ed14b4b50e2ba7f6bf5346622970638c8abbf29653b011141c919c6c081979962edd1eb94424a7621412cd78c47a9cd8be1227
+"node-fetch-native@npm:^1.2.0":
+  version: 1.4.1
+  resolution: "node-fetch-native@npm:1.4.1"
+  checksum: 339001ad3235a09b195198df8be71b591eec4064a2fcfb7f54b9f0716f6ccb3bda5828e1746f809a6d2edb062a0330e5798f408396c33b3b88339c73d6e9575d
   languageName: node
   linkType: hard
 
@@ -4911,14 +4854,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ofetch@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "ofetch@npm:1.0.1"
+"ofetch@npm:^1.1.1":
+  version: 1.3.3
+  resolution: "ofetch@npm:1.3.3"
   dependencies:
-    destr: ^1.2.2
-    node-fetch-native: ^1.0.2
-    ufo: ^1.1.0
-  checksum: f5bc96c8bb5467ec84b3a89315ac06ccf02a3917b534f137ad0b54b935173297f6c6cb9163b62678919710f64bb73e68d8e911a744ea7c7f029a3ed422b08a42
+    destr: ^2.0.1
+    node-fetch-native: ^1.4.0
+    ufo: ^1.3.0
+  checksum: 945d757b25ba144f9f45d9de3382de743f0950e68e76726a4c0d2ef01456fa6700a6b102cc343a4e06f71d5ac59a8affdd9a673751c448f4265996f7f22ffa3d
   languageName: node
   linkType: hard
 
@@ -5355,13 +5298,6 @@ __metadata:
   version: 1.0.1
   resolution: "queue-tick@npm:1.0.1"
   checksum: 57c3292814b297f87f792fbeb99ce982813e4e54d7a8bdff65cf53d5c084113913289d4a48ec8bbc964927a74b847554f9f4579df43c969a6c8e0f026457ad01
-  languageName: node
-  linkType: hard
-
-"radix3@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "radix3@npm:1.0.1"
-  checksum: 042e11588464ca444a663f78c2aad11eb35533a26d08a56a53786fd60ddb20a058c720d8f66cad4f010859493753f29ac36aaa47d122b6459675c68a3f74928a
   languageName: node
   linkType: hard
 
@@ -6436,10 +6372,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.0.0, ufo@npm:^1.1.0, ufo@npm:^1.1.1, ufo@npm:^1.1.2":
+"ufo@npm:^1.0.0":
   version: 1.1.2
   resolution: "ufo@npm:1.1.2"
   checksum: 83c940a6a23b6d4fc0cd116265bb5dcf88ab34a408ad9196e413270ca607a4781c09b547dc518f43caee128a096f20fe80b5a0e62b4bcc0a868619896106d048
+  languageName: node
+  linkType: hard
+
+"ufo@npm:^1.2.0":
+  version: 1.3.2
+  resolution: "ufo@npm:1.3.2"
+  checksum: f1180bb715ff4dd46152fd4dec41c731e84d7b9eaf1432548a0210b2f7e0cd29de125ac88e582c6a079d8ae5bc9ab04ef2bdbafe125086480b10c1006b81bfce
   languageName: node
   linkType: hard
 
@@ -6459,13 +6402,6 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
-  languageName: node
-  linkType: hard
-
-"uncrypto@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "uncrypto@npm:0.1.2"
-  checksum: a3095725a0f7ffbfada5a7df40716913aa2aba8c9924feab64ee66b45696bdaa2df4718451577bc243bef65fa9fe7a8744dec3a02c5598795a0f261f8c46adc8
   languageName: node
   linkType: hard
 
@@ -6514,31 +6450,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unstorage@npm:^1.0.0":
-  version: 1.6.0
-  resolution: "unstorage@npm:1.6.0"
+"unstorage@npm:1.9.0":
+  version: 1.9.0
+  resolution: "unstorage@npm:1.9.0"
   dependencies:
     anymatch: ^3.1.3
     chokidar: ^3.5.3
-    destr: ^1.2.2
-    h3: ^1.6.4
+    destr: ^2.0.1
+    h3: ^1.7.1
     ioredis: ^5.3.2
-    listhen: ^1.0.4
-    lru-cache: ^9.1.1
+    listhen: ^1.2.2
+    lru-cache: ^10.0.0
     mri: ^1.2.0
-    node-fetch-native: ^1.1.0
-    ofetch: ^1.0.1
-    ufo: ^1.1.2
+    node-fetch-native: ^1.2.0
+    ofetch: ^1.1.1
+    ufo: ^1.2.0
   peerDependencies:
     "@azure/app-configuration": ^1.4.1
     "@azure/cosmos": ^3.17.3
     "@azure/data-tables": ^13.2.2
-    "@azure/identity": ^3.1.4
+    "@azure/identity": ^3.2.3
     "@azure/keyvault-secrets": ^4.7.0
     "@azure/storage-blob": ^12.14.0
-    "@planetscale/database": ^1.7.0
-    "@upstash/redis": ^1.20.5
-    "@vercel/kv": ^0.1.1
+    "@capacitor/preferences": ^5.0.0
+    "@planetscale/database": ^1.8.0
+    "@upstash/redis": ^1.22.0
+    "@vercel/kv": ^0.2.2
+    idb-keyval: ^6.2.1
   peerDependenciesMeta:
     "@azure/app-configuration":
       optional: true
@@ -6552,13 +6490,17 @@ __metadata:
       optional: true
     "@azure/storage-blob":
       optional: true
+    "@capacitor/preferences":
+      optional: true
     "@planetscale/database":
       optional: true
     "@upstash/redis":
       optional: true
     "@vercel/kv":
       optional: true
-  checksum: a7332ac6ea6a8c4a500e5c1ca0a40e8bb37576f96eb84f9e0da3f73c99ebd5a2e3d443262447ca19f051f9f1fa4b154923c7701ff99196d700cced6cc5ef09ac
+    idb-keyval:
+      optional: true
+  checksum: a5ce2d2237951931159b10bcc92ee68fddcd7dda73e6b6f55188f987a3fe79be97261783bd162db2394613dfd813ff0c747aecb6fe33ac75b61c1d64e9a1d7a3
   languageName: node
   linkType: hard
 
