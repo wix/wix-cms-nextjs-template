@@ -981,13 +981,13 @@ __metadata:
   linkType: hard
 
 "@wix/data@npm:^1.0.47":
-  version: 1.0.67
-  resolution: "@wix/data@npm:1.0.67"
+  version: 1.0.69
+  resolution: "@wix/data@npm:1.0.69"
   dependencies:
     "@wix/metro-runtime": ^1.0.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
     "@wix/sdk-types": ^1.0.0
-  checksum: 5d3070cc59c056c50c8490479aeaaa5413dff1e48e95e99dbc1a6bdf307e0f6e1f1140ea4299b92d04c7c59343edc5bdc59a0c4197562072411a267ca79589d5
+  checksum: 45806081a5bf7047743fbde08c889c15a332a9b1126b0c6324bee2474de264d7f0b97369abfa01d4c545a73c41c7fa4341bc3293c909518e494262099053eae6
   languageName: node
   linkType: hard
 
