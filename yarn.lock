@@ -806,13 +806,13 @@ __metadata:
   linkType: hard
 
 "@playwright/test@npm:^1.34.3":
-  version: 1.41.2
-  resolution: "@playwright/test@npm:1.41.2"
+  version: 1.42.1
+  resolution: "@playwright/test@npm:1.42.1"
   dependencies:
-    playwright: 1.41.2
+    playwright: 1.42.1
   bin:
     playwright: cli.js
-  checksum: 87d9e725106111b2af1b2dec32454cd2a2d9665ff735669dc751caa30240e6db595ecfb9422719fa65dcff6ca19dea93ac2ae70d587efddde31def0754549d4c
+  checksum: a41505f02a4dac358e645452a190cac620b8d4eae79ab5d90ea1fb7ca06d86a9f5749b1a803dea789b662d1cbfd216380f722bed72093897e18b4238f4a07a4d
   languageName: node
   linkType: hard
 
@@ -990,14 +990,14 @@ __metadata:
   linkType: hard
 
 "@wix/data@npm:^1.0.47":
-  version: 1.0.79
-  resolution: "@wix/data@npm:1.0.79"
+  version: 1.0.80
+  resolution: "@wix/data@npm:1.0.80"
   dependencies:
     "@wix/metro-runtime": ^1.1528.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
     "@wix/sdk-runtime": ^0.2.7
     "@wix/sdk-types": ^1.5.3
-  checksum: 13946478f2007e6a7e2d7442827c7ea6411eb7f03291f050b6c275cf617a2212cdbbfd0f2011b0a9c971a124a9614b95793b759bc69e4887a587ed092dc2e3e5
+  checksum: 4c5867c8a74b30189b94f56967f301928f4364aa7f9a0a56239fb3bceef33950a66f30d0df6439766d459868bee494d6fa70d56f64d1e8eb5af526a80a060d0c
   languageName: node
   linkType: hard
 
@@ -1012,7 +1012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.73":
+"@wix/identity@npm:^1.0.74":
   version: 1.0.74
   resolution: "@wix/identity@npm:1.0.74"
   dependencies:
@@ -1024,13 +1024,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.53.0":
-  version: 1.53.0
-  resolution: "@wix/image-kit@npm:1.53.0"
+"@wix/image-kit@npm:^1.58.0":
+  version: 1.58.0
+  resolution: "@wix/image-kit@npm:1.58.0"
   dependencies:
     "@babel/runtime": ^7.23.9
     tslib: ^2.6.2
-  checksum: 8a9c982a0a010042f6be4695e410f2afaedf72898db6239b52b54a493243ea30f2a0823b69ad06d9074e7028214ffaf868236502aecbe3b2049f383f124c31ad
+  checksum: ab89afb1ce15ffe6ff31537bc23e9a62d547ac3fa81e9939eb95022f37a1fca8370b1529c27925519b9355a2f12446d6a10fbfa3be9d4438ef6f38d195617c73
   languageName: node
   linkType: hard
 
@@ -1172,22 +1172,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:^1.5.8":
-  version: 1.5.8
-  resolution: "@wix/sdk-types@npm:1.5.8"
-  checksum: ca5d338cc66a9948be627ba1804ae8aff52d65ddc5a0ca4d1103e750b825edcea4c5a6da43235928144167ccf0fcc30b969a37e67c36975bfba14a9ad7c0e929
+"@wix/sdk-types@npm:^1.5.9":
+  version: 1.5.9
+  resolution: "@wix/sdk-types@npm:1.5.9"
+  checksum: 40d49d5a45620231a9d278ec363f16cd3187e3c7d15a01d0e6da2f10fd5ce8050cedae411ca6bb024d593e06a9f3f62f4082fb52eeddd6f076aea300428bbc77
   languageName: node
   linkType: hard
 
 "@wix/sdk@npm:^1.5.0":
-  version: 1.7.5
-  resolution: "@wix/sdk@npm:1.7.5"
+  version: 1.7.7
+  resolution: "@wix/sdk@npm:1.7.7"
   dependencies:
     "@babel/runtime": ^7.23.2
-    "@wix/identity": ^1.0.73
-    "@wix/image-kit": ^1.53.0
+    "@wix/identity": ^1.0.74
+    "@wix/image-kit": ^1.58.0
     "@wix/redirects": ^1.0.32
-    "@wix/sdk-types": ^1.5.8
+    "@wix/sdk-types": ^1.5.9
     crypto-js: ^4.2.0
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     jose: ^5.2.1
@@ -1197,7 +1197,7 @@ __metadata:
   dependenciesMeta:
     graphql:
       optional: true
-  checksum: b66f166162da86469f3e9a6b406dc8045cf5f0a479dc470fb7e475ec6997c1434c32e9ebeef9d5488f00758c54c749e4a89fa1c318d20099f1dd5965d7bd390d
+  checksum: dec7317261a5e66a956f59819b2865d3185a912a3210a9d3e08882f6b3992ce1a640bb2b67cc9ad48c2c65b17e18a597d235ba526069b954c17cc4ceed8c08ea
   languageName: node
   linkType: hard
 
@@ -1478,11 +1478,11 @@ __metadata:
   linkType: hard
 
 "autoprefixer@npm:^10.4.13":
-  version: 10.4.17
-  resolution: "autoprefixer@npm:10.4.17"
+  version: 10.4.18
+  resolution: "autoprefixer@npm:10.4.18"
   dependencies:
-    browserslist: ^4.22.2
-    caniuse-lite: ^1.0.30001578
+    browserslist: ^4.23.0
+    caniuse-lite: ^1.0.30001591
     fraction.js: ^4.3.7
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -1491,7 +1491,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 1b4cf4097507f9dc48cef3194f18a05901311c881380cc634b308fce54a6554cf2dcd20aec8384b44e994d4665ab12c63dc89492523f8d74ff5d4d5eb1469f8c
+  checksum: 3c6fe631db3c36f36e5d56ef93891ac44be00bc2d50001b23703e99c3618bdb8807a97413af1252314ec043aee57ef80775f4f2cc3599db2662cbf05a08210df
   languageName: node
   linkType: hard
 
@@ -1601,17 +1601,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.22.2":
-  version: 4.22.2
-  resolution: "browserslist@npm:4.22.2"
+"browserslist@npm:^4.23.0":
+  version: 4.23.0
+  resolution: "browserslist@npm:4.23.0"
   dependencies:
-    caniuse-lite: ^1.0.30001565
-    electron-to-chromium: ^1.4.601
+    caniuse-lite: ^1.0.30001587
+    electron-to-chromium: ^1.4.668
     node-releases: ^2.0.14
     update-browserslist-db: ^1.0.13
   bin:
     browserslist: cli.js
-  checksum: 33ddfcd9145220099a7a1ac533cecfe5b7548ffeb29b313e1b57be6459000a1f8fa67e781cf4abee97268ac594d44134fcc4a6b2b4750ceddc9796e3a22076d9
+  checksum: 436f49e796782ca751ebab7edc010cfc9c29f68536f387666cd70ea22f7105563f04dd62c6ff89cb24cc3254d17cba385f979eeeb3484d43e012412ff7e75def
   languageName: node
   linkType: hard
 
@@ -1700,10 +1700,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001565, caniuse-lite@npm:^1.0.30001578":
-  version: 1.0.30001579
-  resolution: "caniuse-lite@npm:1.0.30001579"
-  checksum: 7539dcff74d2243a30c428393dc690c87fa34d7da36434731853e9bcfe783757763b2971f5cc878e25242a93e184e53f167d11bd74955af956579f7af71cc764
+"caniuse-lite@npm:^1.0.30001587, caniuse-lite@npm:^1.0.30001591":
+  version: 1.0.30001591
+  resolution: "caniuse-lite@npm:1.0.30001591"
+  checksum: e48f924cdefff86d29d38ee1bffe2cdb1ef55e179d08ae2f1f5546d9d563e030f13755a0096ea87a09498daffd18666d1fe0b2759aea8421bbf4c214b47d410d
   languageName: node
   linkType: hard
 
@@ -2204,10 +2204,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.4.601":
-  version: 1.4.640
-  resolution: "electron-to-chromium@npm:1.4.640"
-  checksum: 021b8da324b2e574ffd9cd6943a74f8116d1947dbd4a43c89025594c469e18f2437b2b354363528dbc822538f510137c6ae315bce9b94b1d1f6e5d1c9cd302ef
+"electron-to-chromium@npm:^1.4.668":
+  version: 1.4.690
+  resolution: "electron-to-chromium@npm:1.4.690"
+  checksum: c3fd731041dde1096ede37aded29a08e77e80182f3f602ad065c88323ea0cbcad3d9b10a86a107b9db41dde19b6f3ed81b9e0cde30e9b2338bf75a239ad57b3b
   languageName: node
   linkType: hard
 
@@ -5101,27 +5101,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.41.2":
-  version: 1.41.2
-  resolution: "playwright-core@npm:1.41.2"
+"playwright-core@npm:1.42.1":
+  version: 1.42.1
+  resolution: "playwright-core@npm:1.42.1"
   bin:
     playwright-core: cli.js
-  checksum: b41ede0db3fd3e3f7e0b0efbdfb2dbc4db345e113cf9c4451af21d1d5b5d9ab5e969f5662852925e37b2198ae5daab92aa48108fe3d4eb81c849ba8752aaf8cc
+  checksum: e7081ff0f43b4b9053255109eb1d82164b7c6b55c7d022e25fca935d0f4fc547cb2e02a7b64f0c2a9462729be7bb45edb082f8b038306415944f1061d00d9c90
   languageName: node
   linkType: hard
 
-"playwright@npm:1.41.2":
-  version: 1.41.2
-  resolution: "playwright@npm:1.41.2"
+"playwright@npm:1.42.1":
+  version: 1.42.1
+  resolution: "playwright@npm:1.42.1"
   dependencies:
     fsevents: 2.3.2
-    playwright-core: 1.41.2
+    playwright-core: 1.42.1
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     playwright: cli.js
-  checksum: acf166003ec42cd795f5fca096c5135880d78e84ec2d0a1911b2cab984cf75dc06e50d3aa24b56cbcbc5369ca8c61831e76c5f8674531a272fbd0f6e624fa387
+  checksum: 06c16bcd07d03993126ee6c168bde28c59d3cab7f7d4721eaf57bd5c51e9c929e10a286758de062b5fc02874413ceae2684d14cbb7865c0a51fc8df6d9001ad1
   languageName: node
   linkType: hard
 
