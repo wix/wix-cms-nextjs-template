@@ -1280,14 +1280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:^1.6.2":
-  version: 1.7.0
-  resolution: "@wix/sdk-types@npm:1.7.0"
-  checksum: b534f2a58292068f2f8c588bef549fabac113049895e04555b670b1bf83a78b51e8b86841bb108b25f12616edcc2e01b8771f3a508db57ed3407cf9c0905ac32
-  languageName: node
-  linkType: hard
-
-"@wix/sdk-types@npm:^1.7.0":
+"@wix/sdk-types@npm:^1.6.2, @wix/sdk-types@npm:^1.7.0":
   version: 1.7.0
   resolution: "@wix/sdk-types@npm:1.7.0"
   checksum: b534f2a58292068f2f8c588bef549fabac113049895e04555b670b1bf83a78b51e8b86841bb108b25f12616edcc2e01b8771f3a508db57ed3407cf9c0905ac32
