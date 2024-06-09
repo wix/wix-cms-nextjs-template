@@ -999,14 +999,14 @@ __metadata:
   linkType: hard
 
 "@wix/data@npm:^1.0.47":
-  version: 1.0.107
-  resolution: "@wix/data@npm:1.0.107"
+  version: 1.0.111
+  resolution: "@wix/data@npm:1.0.111"
   dependencies:
     "@wix/data_collections": 1.0.23
     "@wix/data_external-database-connections": 1.0.21
     "@wix/data_indexes": 1.0.18
-    "@wix/data_items": 1.0.21
-  checksum: a49f636c336ca9fc36b825606d06136d335e777a67f857830eeb688ea5b828a0ab6fa07fb15d870072ab59fa07a16f76c5ed7eb725c22f04d52473d96fc46db1
+    "@wix/data_items": 1.0.25
+  checksum: 4fcad648df33eaa3ff6ecc5a7da6b25bb8291dae1f1bf714c0c51a8758f17b5588df826a433349f87440b87bb925b735f93780a9cd29eb2e0ae920fc44ae4805
   languageName: node
   linkType: hard
 
@@ -1046,15 +1046,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/data_items@npm:1.0.21":
-  version: 1.0.21
-  resolution: "@wix/data_items@npm:1.0.21"
+"@wix/data_items@npm:1.0.25":
+  version: 1.0.25
+  resolution: "@wix/data_items@npm:1.0.25"
   dependencies:
     "@wix/metro-runtime": ^1.1696.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
     "@wix/sdk-runtime": ^0.2.12
     "@wix/sdk-types": ^1.7.1
-  checksum: ff51790803a047ba37e2be4edcbba1b142d26b0596f62e9778a94cfb52783a61f00c0c90301ed95d5f843d03c0f03522be14b97d3d4472256a67581dc9267aa7
+  checksum: 71119d4fd86686231118b2b95be7202064af4efc2acbe5b567d433d605d74b089596a1f03243659d768a59690d20a81dc1c9edbd42f6f96bfe4dfc37411fe48e
   languageName: node
   linkType: hard
 
@@ -1394,8 +1394,8 @@ __metadata:
   linkType: hard
 
 "@wix/sdk@npm:^1.5.0":
-  version: 1.9.7
-  resolution: "@wix/sdk@npm:1.9.7"
+  version: 1.9.8
+  resolution: "@wix/sdk@npm:1.9.8"
   dependencies:
     "@babel/runtime": ^7.23.2
     "@wix/identity": ^1.0.78
@@ -1411,7 +1411,7 @@ __metadata:
   dependenciesMeta:
     graphql:
       optional: true
-  checksum: b4e8ede23177076d8ce79d05b565c550c1d6aadb34f6f77641ff697158b99e9afe60715bfc9c52c86d1ddd8e83378b6b443f0943421acc6e17369b8fe76d6ca0
+  checksum: 3eab183090d08f570f20ae9a4a9f78e041b989ab3c754ffd25890e1ae61b59f83cdc7463b1bc82115cfbcc580fdc34968f87bd585ce83cebd839d88182a5fbe0
   languageName: node
   linkType: hard
 
@@ -6360,8 +6360,8 @@ __metadata:
   linkType: hard
 
 "tailwindcss@npm:^3.2.4":
-  version: 3.4.3
-  resolution: "tailwindcss@npm:3.4.3"
+  version: 3.4.4
+  resolution: "tailwindcss@npm:3.4.4"
   dependencies:
     "@alloc/quick-lru": ^5.2.0
     arg: ^5.0.2
@@ -6388,7 +6388,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 7d181a6aafb520c5760d23d0a199444a324dfa36538edd31934daa253ed9a7ac4bde18c4205aaa89c1269bc2ff11781efda04d2e27ded535a9a2547667a344b1
+  checksum: 743639b6a5c827b6f91ad8cff22ad296e25f4478202200a6f41ae49fbb28c4c6f8120e742a85e09987e33352fbc52c6a34c4ed33ce000b3810d4edf632142bac
   languageName: node
   linkType: hard
 
