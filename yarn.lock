@@ -999,15 +999,15 @@ __metadata:
   linkType: hard
 
 "@wix/data@npm:^1.0.47":
-  version: 1.0.119
-  resolution: "@wix/data@npm:1.0.119"
+  version: 1.0.121
+  resolution: "@wix/data@npm:1.0.121"
   dependencies:
     "@wix/data_collections": 1.0.25
-    "@wix/data_external-database": 1.0.0
+    "@wix/data_external-database": 1.0.3
     "@wix/data_external-database-connections": 1.0.23
     "@wix/data_indexes": 1.0.20
-    "@wix/data_items": 1.0.28
-  checksum: 48f1adc0db06fa6a3cb5f89c30d6c76bdbd9331105b55057d7906271db172956398eaa38fee7dba37d1e20d637525e61c90eea5f412699a17b57aad19b5bd8b2
+    "@wix/data_items": 1.0.30
+  checksum: 37018e27d942455070291be7e722c23ac995c281095a890debee45b60c5122c9457f3946f11ea7b091ce0ba13784689f7303124140191c8bb774a950439ae719
   languageName: node
   linkType: hard
 
@@ -1035,15 +1035,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/data_external-database@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@wix/data_external-database@npm:1.0.0"
+"@wix/data_external-database@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@wix/data_external-database@npm:1.0.3"
   dependencies:
     "@wix/metro-runtime": ^1.1696.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
     "@wix/sdk-runtime": ^0.2.12
     "@wix/sdk-types": ^1.7.1
-  checksum: 8e734ca103027339a386d5fe3bb0194e2fc8edb5620a761ec698401ecefa5dc21a8f83b59aed7d484df47b1dcfd520b2ec2b1191cd54410d90480f7d81059e98
+  checksum: c3ce435a8d9e4b5bcbf101be4978e77839f157105a1b517bc08cbd17a384bfe9e2d5ce074c761fc72f8fc56eb2f370f3e8287d8adec7677b4c2910126c821893
   languageName: node
   linkType: hard
 
@@ -1059,15 +1059,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/data_items@npm:1.0.28":
-  version: 1.0.28
-  resolution: "@wix/data_items@npm:1.0.28"
+"@wix/data_items@npm:1.0.30":
+  version: 1.0.30
+  resolution: "@wix/data_items@npm:1.0.30"
   dependencies:
     "@wix/metro-runtime": ^1.1696.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
     "@wix/sdk-runtime": ^0.2.12
     "@wix/sdk-types": ^1.7.1
-  checksum: 5c70061e7168d224eef28fa6c512637a7be464349f1ba1b495dfae7150a4b95d7578b5cf6ff4a3905b77bc93e39dd8796f821f070db840d5dee4de36a99146fb
+  checksum: fd87e15bda6444a8d0112063098f08cf3fc7c15bcd6a7d8ec5f8f435b959ffcd51800aa06e3c1c6c3a1ab9e78eee4ed772a66e3e73a478e49ab0da2c418755af
   languageName: node
   linkType: hard
 
