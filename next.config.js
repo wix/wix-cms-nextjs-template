@@ -3,9 +3,7 @@ const nextConfig = {
   env: {},
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    appDir: true,
-  },
+  experimental: {},
   eslint: {
     dirs: ['app'],
   },
