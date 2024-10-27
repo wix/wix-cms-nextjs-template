@@ -974,15 +974,15 @@ __metadata:
   linkType: hard
 
 "@wix/data@npm:^1.0.47":
-  version: 1.0.160
-  resolution: "@wix/data@npm:1.0.160"
+  version: 1.0.161
+  resolution: "@wix/data@npm:1.0.161"
   dependencies:
     "@wix/data_collections": 1.0.51
     "@wix/data_external-database": 1.0.22
     "@wix/data_external-database-connections": 1.0.43
     "@wix/data_indexes": 1.0.36
-    "@wix/data_items": 1.0.52
-  checksum: 36762f8b8ab68a4fd4f54e4be5ea1df6f072e0992ca09b4fe0f6dbf33548f2ed81de09fa423b49b868bb375add93ac0c676830d236af12602d90588b5131941f
+    "@wix/data_items": 1.0.53
+  checksum: 865c856e6ceb20c861c06fd45fd55fdc6c64221efc4ae91118e2ad5493d7102d8c693463c8df23a4529c445a0eb19290c3a4edcff052e65ab2b152b1e28a793c
   languageName: node
   linkType: hard
 
@@ -1034,15 +1034,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/data_items@npm:1.0.52":
-  version: 1.0.52
-  resolution: "@wix/data_items@npm:1.0.52"
+"@wix/data_items@npm:1.0.53":
+  version: 1.0.53
+  resolution: "@wix/data_items@npm:1.0.53"
   dependencies:
     "@wix/metro-runtime": ^1.1792.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
     "@wix/sdk-runtime": ^0.3.14
     "@wix/sdk-types": ^1.12.3
-  checksum: d6d64454e365e951c59e4a4eb5993e44b946ff4d0da848f2340a2c52b28d0a656485a660f6c759d650f1edeb94a56cf41acb562cf687ae2ff76a60caa984d495
+  checksum: 0006dc21a3467a72bc072808cdb02ed10f01015b4230b9e0d42fa7bcc0a4263429a21d1529e93126bc5cb927114ec86cb4d5549cb65da21377fc4d6ddba22365
   languageName: node
   linkType: hard
 
