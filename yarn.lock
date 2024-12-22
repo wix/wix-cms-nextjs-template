@@ -534,81 +534,81 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/env@npm:13.5.7"
-  checksum: 7703ba37a5ad9c280fb8a04af43231b41bec2ed0bcf182a7e9e147b12e9d710ef96bbdc8e67aa27d2cf1abd4b57951d1c12018ba6ff03fbd87f31876362f5f58
+"@next/env@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/env@npm:13.5.8"
+  checksum: 233983c0b6be309b199ba918dec05eca3fb1aff91dd06e076088553f07af9a8bca6336a801302e50a737c8a19ce33e9e5f386f382d5af549b43a6c5f5e2a305e
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/eslint-plugin-next@npm:13.5.7"
+"@next/eslint-plugin-next@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/eslint-plugin-next@npm:13.5.8"
   dependencies:
     glob: 7.1.7
-  checksum: 6573569ac6aec8e5c53d74c0d2602265cd8e6a1981b48fb9a5de245c3b996ba3c92833edb35b23fa2683e2e12f65ae2b8ec6246cd2cc03866a54a49dfb44290f
+  checksum: 0a5432d5cf729fab0b576db1b400bdf407fb673bcaa410dc43550145772106a8f31d1a84bfb2dd3621a3ea1d593b08a09962edc924289cedf5791806e24b4825
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-darwin-arm64@npm:13.5.7"
+"@next/swc-darwin-arm64@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-darwin-arm64@npm:13.5.8"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-darwin-x64@npm:13.5.7"
+"@next/swc-darwin-x64@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-darwin-x64@npm:13.5.8"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.5.7"
+"@next/swc-linux-arm64-gnu@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.5.8"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-linux-arm64-musl@npm:13.5.7"
+"@next/swc-linux-arm64-musl@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-linux-arm64-musl@npm:13.5.8"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-linux-x64-gnu@npm:13.5.7"
+"@next/swc-linux-x64-gnu@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-linux-x64-gnu@npm:13.5.8"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-linux-x64-musl@npm:13.5.7"
+"@next/swc-linux-x64-musl@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-linux-x64-musl@npm:13.5.8"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.5.7"
+"@next/swc-win32-arm64-msvc@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.5.8"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.5.7"
+"@next/swc-win32-ia32-msvc@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.5.8"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.5.7":
-  version: 13.5.7
-  resolution: "@next/swc-win32-x64-msvc@npm:13.5.7"
+"@next/swc-win32-x64-msvc@npm:13.5.8":
+  version: 13.5.8
+  resolution: "@next/swc-win32-x64-msvc@npm:13.5.8"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1066,26 +1066,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.97":
-  version: 1.0.97
-  resolution: "@wix/identity@npm:1.0.97"
+"@wix/identity@npm:^1.0.98":
+  version: 1.0.98
+  resolution: "@wix/identity@npm:1.0.98"
   dependencies:
-    "@wix/identity_account": 1.0.1
     "@wix/identity_authentication": 1.0.20
     "@wix/identity_oauth": 1.0.13
     "@wix/identity_recovery": 1.0.14
     "@wix/identity_verification": 1.0.14
-  checksum: b11f3e96aa927347dc64695d74160d79f049a948c1f31521b7d0ba0867da2928119f73b8669cf4639401cd3f2b01f636716d651b092cf7ebd03e42b737a9bf99
-  languageName: node
-  linkType: hard
-
-"@wix/identity_account@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@wix/identity_account@npm:1.0.1"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.22
-    "@wix/sdk-types": ^1.12.4
-  checksum: 07f4a953c63329d6d4e6d796dadfdcc417baad0164c8193cf88c3a9fbc1f7b3cefcc4fd983758f336123d1b8ba0c32024405af4a4a400e03cc90600d4ee1b338
+  checksum: 7cd8204657cb8da092c5529161bdbcd3553e801f193981619ce8a362a84b36e62377acb83241e3ef6f26db0d9499e8089fdf14f4d7f868782c2040128cb58202
   languageName: node
   linkType: hard
 
@@ -1139,22 +1128,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/redirects@npm:^1.0.64":
-  version: 1.0.64
-  resolution: "@wix/redirects@npm:1.0.64"
-  dependencies:
-    "@wix/redirects_redirects": 1.0.33
-  checksum: 100e054fd1244dcc23a7e0a5aae087b20e36b2ed5ae40c3ff8c00c625bcdfa585e7945acc9979577303388377170e49a23111ee8048cb7cfbe2965b4524f13a6
+"@wix/monitoring-types@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@wix/monitoring-types@npm:0.1.0"
+  checksum: cfaf7415e11b924e86034f405217b6be27e88b6d8fa9263e24777beb392acbd98fe46adeb1bbf6079aff1728965106209232771bf50fd57bca9144414f5a1f60
   languageName: node
   linkType: hard
 
-"@wix/redirects_redirects@npm:1.0.33":
-  version: 1.0.33
-  resolution: "@wix/redirects_redirects@npm:1.0.33"
+"@wix/redirects@npm:^1.0.67":
+  version: 1.0.67
+  resolution: "@wix/redirects@npm:1.0.67"
+  dependencies:
+    "@wix/redirects_redirects": 1.0.36
+  checksum: ad59070b0e8c8cc56233d53ad09097b53db718b86ce77b03a9849325c18bfada0a0b007f3b6bfe2a3ce0e24478aae16937a9d0a90ff6bc081b404a7f9026bd48
+  languageName: node
+  linkType: hard
+
+"@wix/redirects_redirects@npm:1.0.36":
+  version: 1.0.36
+  resolution: "@wix/redirects_redirects@npm:1.0.36"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: f9c5c5300b46ba2eb472aa8db1f1c4c0cc874506717fc30161467376f0092b362ae4f9e49a0ab629f1586811dba37072e079eef48926177e1a80b1e4fcd3cb56
+  checksum: 56622f4785fda66e9c961c7521f2f6a424b2d673925abaad1cb7d6f6be2fee3cc447ee53597cd644a3c81667a13d853e835311f33d95d0a918e3d8e986b95cd6
   languageName: node
   linkType: hard
 
@@ -1165,13 +1161,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-runtime@npm:0.3.26":
-  version: 0.3.26
-  resolution: "@wix/sdk-runtime@npm:0.3.26"
+"@wix/sdk-runtime@npm:0.3.27":
+  version: 0.3.27
+  resolution: "@wix/sdk-runtime@npm:0.3.27"
   dependencies:
     "@wix/sdk-context": ^0.0.1
-    "@wix/sdk-types": ^1.12.6
-  checksum: 4696f20459df874ff11cf76e3e2d06a8b6ceaf9308840178ec6863bf7865b8ae4f362ac7a43adcc2c594a9f8c413afde92a53059d44feb88fe50618833911e6a
+    "@wix/sdk-types": ^1.12.7
+  checksum: 67841d8f6c17bb206daa311fd90d5fd68d91bb42d5360114593038b75415431bac491dcf224662959d36a6664bd5dfa98612e456843e04e8076a7d25599ef503
   languageName: node
   linkType: hard
 
@@ -1192,31 +1188,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:^1.12.6":
-  version: 1.12.6
-  resolution: "@wix/sdk-types@npm:1.12.6"
-  checksum: 7433f3b9d999ea7801b5df7e0b4d0450484dbb01265a724c663058bb698dd01281c6173b100a720ffbd2b631d54722adf8e0ac402010d36fabfd99ce635e812f
+"@wix/sdk-types@npm:^1.12.7":
+  version: 1.12.7
+  resolution: "@wix/sdk-types@npm:1.12.7"
+  dependencies:
+    "@wix/monitoring-types": ^0.1.0
+  checksum: d23b42ea4263b78440d8d9109e5c4ceef59316fac7207d4b3fd0dbec238e1bfb8f610417959e114932565b61e30a38df4d7b38d38d4be85f87b2a872148a754c
   languageName: node
   linkType: hard
 
 "@wix/sdk@npm:^1.5.0":
-  version: 1.15.5
-  resolution: "@wix/sdk@npm:1.15.5"
+  version: 1.15.6
+  resolution: "@wix/sdk@npm:1.15.6"
   dependencies:
-    "@wix/identity": ^1.0.97
+    "@wix/identity": ^1.0.98
     "@wix/image-kit": ^1.97.0
-    "@wix/redirects": ^1.0.64
+    "@wix/redirects": ^1.0.67
     "@wix/sdk-context": ^0.0.1
-    "@wix/sdk-runtime": 0.3.26
-    "@wix/sdk-types": ^1.12.6
+    "@wix/sdk-runtime": 0.3.27
+    "@wix/sdk-types": ^1.12.7
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     jose: ^5.9.6
     serialize-error: ^8.1.0
-    type-fest: ^4.30.0
+    type-fest: ^4.30.1
   dependenciesMeta:
     graphql:
       optional: true
-  checksum: c3bc943a50448aa0d1b0485a4892d0e5718e92a88010617e8965a97d13313bf5da94e60afd035a7a3030d7a73f57036d716d01cf8525e726036467303db3ed7f
+  checksum: 115a5615df5a08a97f82169495f70be019d3d96087f16e5a11c2c9047ebb55036f0760993b9644b12c93969c4bd19a0399e70abbeafa2fe4f70865a7157f0e2f
   languageName: node
   linkType: hard
 
@@ -2418,10 +2416,10 @@ __metadata:
   linkType: hard
 
 "eslint-config-next@npm:^13.4.9":
-  version: 13.5.7
-  resolution: "eslint-config-next@npm:13.5.7"
+  version: 13.5.8
+  resolution: "eslint-config-next@npm:13.5.8"
   dependencies:
-    "@next/eslint-plugin-next": 13.5.7
+    "@next/eslint-plugin-next": 13.5.8
     "@rushstack/eslint-patch": ^1.3.3
     "@typescript-eslint/parser": ^5.4.2 || ^6.0.0
     eslint-import-resolver-node: ^0.3.6
@@ -2436,7 +2434,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 23e095968d2744d4ea4010f6d2049b0a2dd426f78562226008826471500c674476722584be14531853b524e404931217290be958db887844f79a51cb21167546
+  checksum: 1185ca81291c47cbb6add5d21f54097a89e74d36b2589d2103b2a10b280987e57cd21b72d5dcd369f26a264d36b4e7fcc3ef1bee37fd9641fbd8038018dec761
   languageName: node
   linkType: hard
 
@@ -4503,19 +4501,19 @@ __metadata:
   linkType: hard
 
 "next@npm:^13.4.9":
-  version: 13.5.7
-  resolution: "next@npm:13.5.7"
+  version: 13.5.8
+  resolution: "next@npm:13.5.8"
   dependencies:
-    "@next/env": 13.5.7
-    "@next/swc-darwin-arm64": 13.5.7
-    "@next/swc-darwin-x64": 13.5.7
-    "@next/swc-linux-arm64-gnu": 13.5.7
-    "@next/swc-linux-arm64-musl": 13.5.7
-    "@next/swc-linux-x64-gnu": 13.5.7
-    "@next/swc-linux-x64-musl": 13.5.7
-    "@next/swc-win32-arm64-msvc": 13.5.7
-    "@next/swc-win32-ia32-msvc": 13.5.7
-    "@next/swc-win32-x64-msvc": 13.5.7
+    "@next/env": 13.5.8
+    "@next/swc-darwin-arm64": 13.5.8
+    "@next/swc-darwin-x64": 13.5.8
+    "@next/swc-linux-arm64-gnu": 13.5.8
+    "@next/swc-linux-arm64-musl": 13.5.8
+    "@next/swc-linux-x64-gnu": 13.5.8
+    "@next/swc-linux-x64-musl": 13.5.8
+    "@next/swc-win32-arm64-msvc": 13.5.8
+    "@next/swc-win32-ia32-msvc": 13.5.8
+    "@next/swc-win32-x64-msvc": 13.5.8
     "@swc/helpers": 0.5.2
     busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
@@ -4553,7 +4551,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 056a0126fbb2197ee3c397c5599e5dafe57cb23d8420ab4ebd8c62a9a73f06305b8d323315097fa772408f11791106896e714fdccc8dae7f02064531ecc52a20
+  checksum: caf82f428b519139e39d9379da3f8cf2396bc5c5b0b329398f77c071b27bbca46e8638374fa8a3942173954ad55a586cfece4a3f9592ff743e06906304196019
   languageName: node
   linkType: hard
 
@@ -6031,8 +6029,8 @@ __metadata:
   linkType: hard
 
 "tailwindcss@npm:^3.2.4":
-  version: 3.4.16
-  resolution: "tailwindcss@npm:3.4.16"
+  version: 3.4.17
+  resolution: "tailwindcss@npm:3.4.17"
   dependencies:
     "@alloc/quick-lru": ^5.2.0
     arg: ^5.0.2
@@ -6059,7 +6057,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: a6ec1ce07da6ea4d40a62d9b3babfc5e56da75c5efb3c6fe48317dbda6877949f011c67b4fd03cb9a680d3bd734f45dbc977ee9138f8ce59619c7c712fb1350f
+  checksum: bda962f30e9a2f0567e2ee936ec863d5178958078e577ced13da60b3af779062a53a7e95f2f32b5c558f12a7477dea3ce071441a7362c6d7bf50bc9e166728a4
   languageName: node
   linkType: hard
 
@@ -6249,10 +6247,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.30.0":
-  version: 4.30.1
-  resolution: "type-fest@npm:4.30.1"
-  checksum: 4fa1baa4f14e6ae50663a210630a5e9cdc3e542168c8fe66cf6ec94b8cc1634cd5cb8b4e043c064a9d7fb62c70e1e043c68bc37cc54de8d171255d58d1e21ec2
+"type-fest@npm:^4.30.1":
+  version: 4.30.2
+  resolution: "type-fest@npm:4.30.2"
+  checksum: 861f7ae761fa11194743318a486c04b369f6f39060c8c24a099880478efa5c7562b72ad88c38fb7d7dc57111fb378b8922fceddaff363cfc002c6005a99d6bb6
   languageName: node
   linkType: hard
 
