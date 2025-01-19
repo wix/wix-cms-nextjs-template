@@ -3,11 +3,7 @@ import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 export default async function Projects() {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.items
-    .queryDataItems({
-      dataCollectionId: 'Our-Projects',
-    })
-    .find();
+  const { items } = await wixClient.items.query('Our-Projects').find();
 
   return (
     <div className="relative">
@@ -44,17 +40,17 @@ export default async function Projects() {
             >
               <div className="sm:w-[370px] h-[320px] relative">
                 <WixMediaImage
-                  media={item.data!.cover}
-                  alt={item.data!.title}
+                  media={item.cover}
+                  alt={item.title}
                   objectFit="cover"
                 />
               </div>
               <div className="bg-white sm:mt-[-50px] border-t-4 relative mx-6 px-2 pt-3 border-blue-site text-center">
-                <h2 className="mb-10 font-site">{item.data!.title}</h2>
-                <p className="text-sm mb-6">{item.data!.short_description}</p>
+                <h2 className="mb-10 font-site">{item.title}</h2>
+                <p className="text-sm mb-6">{item.shortDescription}</p>
                 <a
                   data-testid={testIds.PROJECTS_PAGE.PROJECT_ITEM_CTA}
-                  href={`/projects/${item.data!.slug}`}
+                  href={`/projects/${item.slug}`}
                   className="text-purple-site py-6 font-site"
                 >
                   Read More

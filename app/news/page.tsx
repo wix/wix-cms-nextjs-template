@@ -4,11 +4,7 @@ import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 export default async function News() {
   const wixClient = await getWixClient();
-  const { items } = await wixClient.items
-    .queryDataItems({
-      dataCollectionId: 'News',
-    })
-    .find();
+  const { items } = await wixClient.items.query('News').find();
 
   return (
     <div className="relative">
@@ -44,23 +40,21 @@ export default async function News() {
             >
               <div className="h-[320px] relative">
                 <WixMediaImage
-                  media={item.data!.image}
-                  alt={item.data!.title}
+                  media={item.image}
+                  alt={item.title}
                   objectFit="cover"
                   disableZoom={true}
                 />
                 <span className="bg-blue-site text-white px-6 py-2 absolute bottom-[-20px]">
-                  {formatDate(
-                    new Date(item.data!.date?.$date ?? item.data!.date)
-                  )}
+                  {formatDate(new Date(item.date?.$date ?? item.date))}
                 </span>
               </div>
               <div className="bg-white relative mt-10 px-8 pb-10">
-                <h2 className="mb-10 font-site">{item.data!.title}</h2>
-                <p className="text-sm mb-6">{item.data!.short_description}</p>
+                <h2 className="mb-10 font-site">{item.title}</h2>
+                <p className="text-sm mb-6">{item.shortDescription}</p>
                 <a
                   data-testid={testIds.NEWS_PAGE.NEWS_ITEM_CTA}
-                  href={`/news/${item.data!.slug}`}
+                  href={`/news/${item.slug}`}
                   className="text-purple-site py-6 font-site"
                 >
                   Read More
