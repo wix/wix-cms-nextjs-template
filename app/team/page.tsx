@@ -3,15 +3,9 @@ import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 export default async function Team() {
   const wixClient = await getWixClient();
-  const { items: team } = await wixClient.items
-    .queryDataItems({
-      dataCollectionId: 'Our-Team',
-    })
-    .find();
+  const { items: team } = await wixClient.items.query('Our-Team').find();
   const { items: volunteers } = await wixClient.items
-    .queryDataItems({
-      dataCollectionId: 'Volunteers',
-    })
+    .query('Volunteers')
     .find();
   return (
     <div className="relative" data-testid={testIds.TEAM_PAGE.CONTAINER}>
@@ -40,15 +34,15 @@ export default async function Team() {
             <div key={item._id} className="p-4 relative">
               <div className="w-[300px] h-[220px] relative">
                 <WixMediaImage
-                  media={item.data!.image}
-                  alt={item.data!.name}
+                  media={item.image}
+                  alt={item.name}
                   objectFit="cover"
                 />
               </div>
               <div className="bg-white sm:mt-[-48px] border-t-4 relative mx-6 px-2 pt-3 border-blue-site text-center">
-                <h2 className="mb-10 font-site">{item.data!.name}</h2>
-                <p className="text-sm mb-6">{item.data!.about}</p>
-                <span>{item.data!.email}</span>
+                <h2 className="mb-10 font-site">{item.name}</h2>
+                <p className="text-sm mb-6">{item.about}</p>
+                <span>{item.email}</span>
               </div>
             </div>
           ))}
@@ -67,10 +61,10 @@ export default async function Team() {
             <div key={item._id} className="p-4 relative">
               <div className="bg-white sm:mt-[-50px] relative mx-6 px-2 py-5 text-center">
                 <h2 className="mb-10 font-extrabold text-blue-site font-site">
-                  {item.data!.name}
+                  {item.name}
                 </h2>
-                <p className="text-sm mb-6">{item.data!.about}</p>
-                <span>{item.data!.email}</span>
+                <p className="text-sm mb-6">{item.about}</p>
+                <span>{item.email}</span>
               </div>
             </div>
           ))}
