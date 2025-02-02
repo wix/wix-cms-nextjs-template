@@ -1036,15 +1036,15 @@ __metadata:
   linkType: hard
 
 "@wix/data@npm:^1.0.47":
-  version: 1.0.189
-  resolution: "@wix/data@npm:1.0.189"
+  version: 1.0.190
+  resolution: "@wix/data@npm:1.0.190"
   dependencies:
     "@wix/data_collections": 1.0.70
     "@wix/data_external-database": 1.0.33
-    "@wix/data_external-database-connections": 1.0.58
+    "@wix/data_external-database-connections": 1.0.59
     "@wix/data_indexes": 1.0.49
     "@wix/wix-data-items-sdk": ^1.0.238
-  checksum: fdf9851d55d09f50748ccf40471cc1fbc44ec465679c5679382fda2cb5dc06b8abb879fc13f51c704a7a21ac8b304c975d479cc2487066c682eb8ca4beb0172f
+  checksum: 70b5cfbb4199303d8b43526a9d366775a0fb041a3c8a875893efd46ee60f8a9ce1c2fac5c238ab6856039e1034c3b35e4147973718f5b0701dcda81b2e1fba0f
   languageName: node
   linkType: hard
 
@@ -1058,13 +1058,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/data_external-database-connections@npm:1.0.58":
-  version: 1.0.58
-  resolution: "@wix/data_external-database-connections@npm:1.0.58"
+"@wix/data_external-database-connections@npm:1.0.59":
+  version: 1.0.59
+  resolution: "@wix/data_external-database-connections@npm:1.0.59"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 5ecb4bf8139b7141784fb9fc4bec0adda8ae2a6fc9be8f1c1f7ff8019424b6fcdbbf5210a2eb96114f5972b6e78d87987880fbba30710fdae1b7076c97e527b5
+  checksum: f9a553465a25ec4cb190bdd8ef24b75d8c87b55eef72b0f3e7fbc9466fee63c7c8d1df5879f9a163c80a5c26b1bed20e987d9fd2008060d44edcc33982ea8863
   languageName: node
   linkType: hard
 
